@@ -7,22 +7,20 @@ public class User {
     private String password;
     private String email;
     private String name;
-    private List<Tournament> tournaments;  // Lista de torneos asociados al usuario
+    private List<Tournament> tournaments;
 
-    // Constructor con parámetros
     public User(String username, String password, String email, String name) {
         this.username = username;
         this.password = password;
         this.email = email;
         this.name = name;
+
     }
 
-    // Constructor vacío
     public User() {
         this("", "", "", "");
     }
 
-    // Getters y setters
     public String getUsername() {
         return username;
     }

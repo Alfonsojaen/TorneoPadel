@@ -1,14 +1,10 @@
 
 7
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
-e
-5src/main/java/github/alfonsojaen/view/XMLManager.java,1\f\1f12e6f5537ec18ca3f7dd2efbcba0c689124e02
 N
 src/main/java/module-info.java,1\c\1c89a5491fbfda3fb050196d6a239f20200296e7
 g
 7src/main/java/github/alfonsojaen/model/entity/User.java,a\a\aa81fe99cb7464ce4ea147f35b9b23a092b93692
-l
-<src/main/java/github/alfonsojaen/model/entity/Costalero.java,a\9\a9aa83daf396feb5db1bc134a1289642e08da7ae
 m
 =src/main/java/github/alfonsojaen/model/entity/Tournament.java,8\b\8b556ff09b5b2c97947e51f90a6363007c6354aa
 g
@@ -19,3 +15,37 @@ x
 Hsrc/main/java/github/alfonsojaen/model/connection/ConnectionMariaDB.java,8\5\85d7c9bff8fb2394f5a50183c2177d09c213e9dc
 {
 Ksrc/main/java/github/alfonsojaen/model/connection/ConnectionProperties.java,e\2\e27171c5d37b2d147e088a40930c37def712b36f
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+Y
+)src/main/java/github/alfonsojaen/App.java,9\6\96e1ba23424aa32cf0762b65d4f3c49629dc83aa
+l
+<src/main/java/github/alfonsojaen/view/PrimaryController.java,b\4\b4d9d38e60290c3a232fe119689d029679f159e4
+n
+>src/main/java/github/alfonsojaen/view/SecondaryController.java,5\e\5e4dc918fcb6628be53b92ec51a73c8330c56ba8
+j
+:src/main/java/github/alfonsojaen/model/interfaces/DAO.java,7\f\7f5aad38d9fd025720f00b78e60c29ca2841d248
+g
+7src/main/java/github/alfonsojaen/model/dao/UserDAO.java,1\b\1ba6b777e263fad7e19c925dbabecc41598099f8
+w
+Gsrc/main/java/github/alfonsojaen/model/interfaces/InterfaceUserDAO.java,f\0\f0a6474d68b204b07ff9ee921b75120628e81a45
+q
+Asrc/main/java/github/alfonsojaen/model/singleton/UserSession.java,e\0\e0cfc4c52f42f3a37aa32b6dfc457eb731647211
+c
+3src/main/java/github/alfonsojaen/test/TestUser.java,2\1\21849c20d3c5f8dbdad6a54fc3ed6ea5057db305
+>
+connection.xml,4\8\489ea6a573b060a464fe7adb9a64339fe6d7f430
+h
+8src/main/java/github/alfonsojaen/test/CreateUserTes.java,e\4\e4a383d38e3e68215acfc31c0254843789f1d9fe
+i
+9src/main/java/github/alfonsojaen/test/CreateUserTest.java,5\5\556c4b3bb1570c7095486a5082ad0cd1e3ba987a
+a
+1src/main/java/github/alfonsojaen/utils/Utils.java,9\f\9f515f9268ef5b8d92ed1ae1b12c6d74245242a7
+i
+9src/main/java/github/alfonsojaen/test/UpdateUserTest.java,4\3\43c1eb078531a9b63af79bfc865ec324f15c90fb
+d
+4src/main/java/github/alfonsojaen/test/LoginTest.java,8\8\889275f5507c36e4ba7bd7914ba0ce2adbd30a1b
+i
+9src/main/java/github/alfonsojaen/test/DeleteUserTest.java,1\4\1441aa5f4f2074d0be9883ad3afdd30433844b6d
+q
+Asrc/main/java/github/alfonsojaen/test/FindUserByUserNameTest.java,d\8\d8f20703de40af22697c43088ba1bce450a02950

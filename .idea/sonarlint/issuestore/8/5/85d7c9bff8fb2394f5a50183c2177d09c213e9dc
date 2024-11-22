@@ -8,3 +8,5 @@ java:S1124
 java:S3010"!Remove this assignment of "conn".(æ‰¢Ùüÿÿÿÿ
 <
 java:S3010"!Remove this assignment of "conn".(€×³›ÿÿÿÿÿ
+Y
+java:S1905"7Remove this unnecessary cast to "ConnectionProperties".(ä¼úþÿÿÿÿ8âÑ¡µ2
