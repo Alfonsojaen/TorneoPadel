@@ -49,3 +49,9 @@ i
 9src/main/java/github/alfonsojaen/test/DeleteUserTest.java,1\4\1441aa5f4f2074d0be9883ad3afdd30433844b6d
 q
 Asrc/main/java/github/alfonsojaen/test/FindUserByUserNameTest.java,d\8\d8f20703de40af22697c43088ba1bce450a02950
+a
+1src/main/java/github/alfonsojaen/view/Scenes.java,3\4\348bd1e037eab64d291f53d5bba4b4e76bab8ab2
+n
+>src/main/java/github/alfonsojaen/view/ControllerUserLogin.java,d\c\dca8885c171895054debfd3ead98211a504ba65b
+q
+Asrc/main/java/github/alfonsojaen/view/ControllerUserRegister.java,f\f\ff75fe5820cb9dcb5e6e28486c5f547216cce90e

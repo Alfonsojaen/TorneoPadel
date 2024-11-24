@@ -11,7 +11,7 @@ public static void main(String[] args) {
 
     try {
         System.out.println("Eliminando usuario...");
-        User userToDelete = new User("aa", null, null, null);
+        User userToDelete = new User("testuser1", null, null, null);
         userDAO.delete(userToDelete);
         System.out.println("Usuario eliminado.");
     } catch (SQLException e) {

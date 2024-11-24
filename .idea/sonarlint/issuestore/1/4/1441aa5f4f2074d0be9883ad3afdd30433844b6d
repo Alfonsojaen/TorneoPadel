@@ -1,5 +1,5 @@
 
-m	java:S106"+Replace this use of System.out by a logger.(ä ¿Î8É¡™£µ2J$dca781c0-0b37-44a9-92a2-e6d84e4ecf79
-l	java:S106"+Replace this use of System.out by a logger.(ƒ­”\8Ê¡™£µ2J$dbfd19d9-d202-45e3-91e1-bc1e8c66d083
+m	java:S106"+Replace this use of System.out by a logger.(ä ¿Î8É¡™£µ2J$c0755dd0-5cf2-4a54-b327-61c4802ed242
+l	java:S106"+Replace this use of System.out by a logger.(ƒ­”\8Ê¡™£µ2J$af456494-b416-4ce4-a367-cd8df0a9779f
 r
-java:S2093"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8Àî™£µ2J$693162bd-f978-4e66-9ad8-61060c4aeb11
+java:S2093"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8Àî™£µ2J$2d2bced5-7b5c-4b91-b867-8b54d4a65ddf

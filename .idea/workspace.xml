@@ -5,32 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5749be9b-69ff-4fcd-86ed-b82d607a074d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/connection.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/model/dao/UserDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/model/interfaces/DAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/model/interfaces/InterfaceUserDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/model/singleton/UserSession.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/test/CreateUserTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/test/DeleteUserTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/test/LoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/utils/Utils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/f/1f12e6f5537ec18ca3f7dd2efbcba0c689124e02" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/8/58d8a4f7b4702158b4fbe1ab4cfcd1b53616b125" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/8/58d8a4f7b4702158b4fbe1ab4cfcd1b53616b125" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/5/85d7c9bff8fb2394f5a50183c2177d09c213e9dc" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/5/85d7c9bff8fb2394f5a50183c2177d09c213e9dc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/9/a9aa83daf396feb5db1bc134a1289642e08da7ae" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/a/aa81fe99cb7464ce4ea147f35b9b23a092b93692" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/a/aa81fe99cb7464ce4ea147f35b9b23a092b93692" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/b/db2427a379fd660103945c985c15bf01f6732956" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/b/db2427a379fd660103945c985c15bf01f6732956" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/view/ControllerUserLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/view/ControllerUserRegister.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/view/Scenes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/github/alfonsojaen/view/pantallaLoginUser.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/github/alfonsojaen/view/pantallaRegisterUser.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/FluentEmojiHighContrastBackArrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/FotoMenuCostalero.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/FotoMenuCuadrilla.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/FotoMenuPaso.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/LetsIconsBack.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/LogoPadel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/githubLogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/menu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/symbolInsta.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/4/1441aa5f4f2074d0be9883ad3afdd30433844b6d" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/4/1441aa5f4f2074d0be9883ad3afdd30433844b6d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/6/96e1ba23424aa32cf0762b65d4f3c49629dc83aa" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/6/96e1ba23424aa32cf0762b65d4f3c49629dc83aa" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/f/1f12e6f5537ec18ca3f7dd2efbcba0c689124e02" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/9/a9aa83daf396feb5db1bc134a1289642e08da7ae" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/PrimaryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/view/PrimaryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/SecondaryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/view/SecondaryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/model/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/model/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/github/alfonsojaen/primary.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/github/alfonsojaen/view/primary.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/github/alfonsojaen/secondary.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/github/alfonsojaen/view/secondary.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/test/DeleteUserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/test/DeleteUserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/view/PrimaryController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/view/SecondaryController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/github/alfonsojaen/view/primary.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/github/alfonsojaen/view/secondary.fxml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,23 +58,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/alfon/IdeaProjects/TorneoPadel",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/alfon/IdeaProjects/TorneoPadel/src/main/resources/icons&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\alfon\IdeaProjects\TorneoPadel\src\main\resources\icons" />
+      <recent name="C:\Users\alfon\IdeaProjects\TorneoPadel\src\main\resources" />
+      <recent name="C:\Users\alfon\IdeaProjects\TorneoPadel\src\main\resources\github\alfonsojaen\view" />
       <recent name="C:\Users\alfon\IdeaProjects\TorneoPadel" />
       <recent name="C:\Users\alfon\IdeaProjects\TorneoPadel\src\main\java\github\alfonsojaen\model" />
     </key>
@@ -83,11 +85,11 @@
       <recent name="C:\Users\alfon\IdeaProjects\TorneoPadel\src\main\resources\github\alfonsojaen\view" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="github.alfonsojaen.view" />
       <recent name="github.alfonsojaen.utils" />
       <recent name="github.alfonsojaen.model.interfaces" />
       <recent name="github.alfonsojaen.model.dao" />
       <recent name="github.alfonsojaen.model.entity" />
-      <recent name="github.alfonsojaen.view" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -102,7 +104,8 @@
       <workItem from="1732207905574" duration="902000" />
       <workItem from="1732264901304" duration="4214000" />
       <workItem from="1732271194367" duration="286000" />
-      <workItem from="1732284526680" duration="3329000" />
+      <workItem from="1732284526680" duration="5125000" />
+      <workItem from="1732474980560" duration="17000" />
     </task>
     <servers />
   </component>

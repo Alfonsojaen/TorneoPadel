@@ -1,3 +1,15 @@
 
-r
-java:S2696"6Make the enclosing method "static" or remove this set.(¯Ø—•J$7fa036ff-7204-4e8b-b078-f8c58a07a14b
+¥
+java:S1488!"]Immediately return this expression instead of assigning it to the temporary variable "scene".(®°Ÿ‘úÿÿÿÿ8Ò¡Æ£µ2J$39acf7ce-837a-4437-bd2c-ae184d190007
+”
+java:S1104"QMake scene a static final constant or non-public and provide accessors if needed.(äõ8Õ¡Æ£µ2J$c00dd2f5-1a79-4bd4-b86b-7fcb6985361b
+ 
+java:S1104"XMake primaryStage a static final constant or non-public and provide accessors if needed.(¢Ñû¦ûÿÿÿÿ8Ö¡Æ£µ2J$f73efae0-5829-4499-a622-f736127a7525
+n
+java:S1444"+Make this "public static scene" field final(äõ8Ú¡Æ£µ2J$d4578553-8daf-40a5-9f78-444e42d6921b
+z
+java:S1444"2Make this "public static primaryStage" field final(¢Ñû¦ûÿÿÿÿ8Ú¡Æ£µ2J$da8005b0-2f23-4a36-9b4f-3033b8d275ee
+x
+java:S2696"6Make the enclosing method "static" or remove this set.(™·G8õ¡Æ£µ2J$91b7b292-b57b-42c0-8ec4-a9dbffd48d3d
+~
+java:S2696"6Make the enclosing method "static" or remove this set.(Ì–ÜÄùÿÿÿÿ8ö¡Æ£µ2J$5f50f904-f954-4deb-9dd9-e9a0aa2342a8
