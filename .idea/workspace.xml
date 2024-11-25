@@ -5,33 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5749be9b-69ff-4fcd-86ed-b82d607a074d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/model/dao/PlayerDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/model/interfaces/InterfacePlayerDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/test/CrearyBuscarPlayerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/test/TestListarPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/test/Testsingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/test/PlayerDaoTest/DeletePlayerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/test/PlayerDaoTest/PlayerFindByNicknameTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/test/PlayerDaoTest/PlayerUpdateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/view/ControllerMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/view/ControllerMenuPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/github/alfonsojaen/view/pantallaMenu.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/github/alfonsojaen/view/pantallaMenuPlayer.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/b/1ba6b777e263fad7e19c925dbabecc41598099f8" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/b/1ba6b777e263fad7e19c925dbabecc41598099f8" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/1/21849c20d3c5f8dbdad6a54fc3ed6ea5057db305" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/3/43c1eb078531a9b63af79bfc865ec324f15c90fb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/5/556c4b3bb1570c7095486a5082ad0cd1e3ba987a" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/5/556c4b3bb1570c7095486a5082ad0cd1e3ba987a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/e/5e4dc918fcb6628be53b92ec51a73c8330c56ba8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/a/aa81fe99cb7464ce4ea147f35b9b23a092b93692" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/a/aa81fe99cb7464ce4ea147f35b9b23a092b93692" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/4/b4d9d38e60290c3a232fe119689d029679f159e4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/4/348bd1e037eab64d291f53d5bba4b4e76bab8ab2" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/4/348bd1e037eab64d291f53d5bba4b4e76bab8ab2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/7/571daa60cddcdf4e89871dc45cd6d41f9dbda2c1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/6/96e1ba23424aa32cf0762b65d4f3c49629dc83aa" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/6/96e1ba23424aa32cf0762b65d4f3c49629dc83aa" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/d/cdd557e6f2fcac094bda3238cf2789eea47a1de7" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/d/cdd557e6f2fcac094bda3238cf2789eea47a1de7" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/b/db2427a379fd660103945c985c15bf01f6732956" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/b/db2427a379fd660103945c985c15bf01f6732956" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/c/dca8885c171895054debfd3ead98211a504ba65b" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/c/dca8885c171895054debfd3ead98211a504ba65b" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/0/e0cfc4c52f42f3a37aa32b6dfc457eb731647211" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/0/e0cfc4c52f42f3a37aa32b6dfc457eb731647211" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/4/e4a383d38e3e68215acfc31c0254843789f1d9fe" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/1/21849c20d3c5f8dbdad6a54fc3ed6ea5057db305" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/3/43c1eb078531a9b63af79bfc865ec324f15c90fb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/5/e/5e4dc918fcb6628be53b92ec51a73c8330c56ba8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/4/b4d9d38e60290c3a232fe119689d029679f159e4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/4/e4a383d38e3e68215acfc31c0254843789f1d9fe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/5/7/571daa60cddcdf4e89871dc45cd6d41f9dbda2c1" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/model/entity/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/model/entity/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/model/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/model/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/model/dao/PlayerDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/model/dao/PlayerDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/model/dao/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/model/dao/UserDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/model/singleton/UserSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/model/singleton/UserSession.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/test/CreateUserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/test/CreateUserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/test/CrearyBuscarPlayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/test/PlayerDaoTest/CrearyBuscarPlayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/test/CreateUserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/test/UserDaoTest/CreateUserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/test/DeleteUserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/test/UserDaoTest/DeleteUserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/test/FindUserByUserNameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/test/PlayerDaoTest/FindUserByUserNameTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/test/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/test/UserDaoTest/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/test/TestListarPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/test/PlayerDaoTest/TestListarPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/view/ControllerUserLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/view/ControllerUserLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/view/Scenes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/view/Scenes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/github/alfonsojaen/view/pantallaLoginUser.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/github/alfonsojaen/view/pantallaLoginUser.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,26 +65,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/alfon/IdeaProjects/TorneoPadel/src/main/resources/icons&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/alfon/IdeaProjects/TorneoPadel/src/main/resources/github/alfonsojaen/view",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\alfon\IdeaProjects\TorneoPadel\src\main\resources\github\alfonsojaen\view" />
       <recent name="C:\Users\alfon\IdeaProjects\TorneoPadel\src\main\resources\icons" />
       <recent name="C:\Users\alfon\IdeaProjects\TorneoPadel\src\main\resources" />
-      <recent name="C:\Users\alfon\IdeaProjects\TorneoPadel\src\main\resources\github\alfonsojaen\view" />
       <recent name="C:\Users\alfon\IdeaProjects\TorneoPadel" />
       <recent name="C:\Users\alfon\IdeaProjects\TorneoPadel\src\main\java\github\alfonsojaen\model" />
     </key>
@@ -111,7 +115,9 @@
       <workItem from="1732474980560" duration="17000" />
       <workItem from="1732475019434" duration="163000" />
       <workItem from="1732520435106" duration="59000" />
-      <workItem from="1732550871208" duration="8459000" />
+      <workItem from="1732550871208" duration="8668000" />
+      <workItem from="1732563022633" duration="128000" />
+      <workItem from="1732564589369" duration="7880000" />
     </task>
     <servers />
   </component>

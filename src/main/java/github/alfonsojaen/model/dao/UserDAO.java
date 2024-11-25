@@ -137,7 +137,7 @@ public class UserDAO implements InterfaceUserDAO<User> {
         pst.setString(2, password);
         ResultSet res = pst.executeQuery();
         if (res.next()) {
-            return res.getString("userName");
+            return res.getString("username");
         }
     }
     return null;

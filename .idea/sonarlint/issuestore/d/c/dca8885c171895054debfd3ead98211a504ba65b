@@ -1,7 +1,3 @@
 
-†
-java:S2095&"EUse try-with-resources or close this "UserDAO" in a "finally" clause.(áô úÿÿÿÿJ$86a49fa6-069d-456a-b58f-47eafc70c5e8
-}
-java:S1854("<Remove this useless assignment to local variable "nameUser".(­„­­ûÿÿÿÿJ$c1582c63-e94f-4781-b2bd-f684df3498d5
-n
-java:S1481'"-Remove this unused "nameUser" local variable.(Á­ ÀûÿÿÿÿJ$fa55260e-8ba2-4620-b7c1-a06cc73bfc0e
+
+java:S2095&"EUse try-with-resources or close this "UserDAO" in a "finally" clause.(áô úÿÿÿÿ8Øèè«¶2J$7a6418c4-d123-445a-b1ff-88adaad2b62a

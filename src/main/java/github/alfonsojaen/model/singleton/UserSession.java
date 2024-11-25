@@ -4,8 +4,10 @@ import github.alfonsojaen.model.entity.User;
 
 public class UserSession {
     private static User user=null;
-    public static void login(String gmail, String usuario) {
-        user = new User(usuario, " ******* ", gmail, " Desconocido ");
+    public static void login(String gmail, String username) {
+        System.out.println("Login llamado con: Gmail = " + gmail + ", Usuario = " + username);
+        user = new User(username, "*******", gmail, "Desconocido");
+        System.out.println("Usuario en sesión: " + user);
     }
     public static void logout() {
         user = null;

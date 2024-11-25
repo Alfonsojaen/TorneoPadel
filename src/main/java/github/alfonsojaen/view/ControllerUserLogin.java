@@ -38,7 +38,7 @@ public class ControllerUserLogin {
             UserDAO mDAO = new UserDAO();
             String nameUser;
             if((nameUser=mDAO.checkLogin(gmail, password))!=null) {
-                UserSession.login(gmail, password);
+                UserSession.login(gmail, nameUser);
                 Utils.ShowAlert("Login exitoso, Se ha logeago el Usuario correctamente.");
                 switchToUserPage();
             }else {

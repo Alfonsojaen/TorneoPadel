@@ -1,4 +1,4 @@
-package github.alfonsojaen.test;
+package github.alfonsojaen.test.PlayerDaoTest;
 
 import github.alfonsojaen.model.dao.PlayerDAO;
 import github.alfonsojaen.model.entity.Player;
@@ -20,9 +20,9 @@ public class CrearyBuscarPlayerTest {
 
         PlayerDAO playerDAO = PlayerDAO.build();
         Player newPlayer = new Player();
-        newPlayer.setNickname("jaen");
-        newPlayer.setGender("jaen");
-        newPlayer.setAge(18);
+        newPlayer.setNickname("adios");
+        newPlayer.setGender("hombre");
+        newPlayer.setAge(10);
 
         try {
             Player savedPlayer = playerDAO.save(newPlayer);

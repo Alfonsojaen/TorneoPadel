@@ -1,4 +1,4 @@
-package github.alfonsojaen.test;
+package github.alfonsojaen.test.UserDaoTest;
 
 import github.alfonsojaen.model.dao.UserDAO;
 import github.alfonsojaen.model.entity.User;
@@ -13,7 +13,7 @@ public class CreateUserTest {
                 try {
                     System.out.println("Creando un nuevo usuario...");
                     String encryptedPassword = Utils.encryptSHA256("password123");
-                    User newUser = new User("teje", encryptedPassword, "elmaki@gmail.com", "Test User 1");
+                    User newUser = new User("hola", encryptedPassword, "el@gmail.com", "Test");
                     userDAO.save(newUser);
                     System.out.println("Usuario creado: " + newUser);
                 } catch (SQLException e) {

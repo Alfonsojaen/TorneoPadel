@@ -1,9 +1,0 @@
-
-G	java:S106"+Replace this use of System.out by a logger.(ÓÎ˜Ş8‚¿££µ2
-G	java:S106"+Replace this use of System.out by a logger.(¡åà×8„¿££µ2
-L	java:S106"+Replace this use of System.out by a logger.(½Ò©ıÿÿÿÿ8…¿££µ2
-L	java:S106"+Replace this use of System.out by a logger.(á¨ò¨üÿÿÿÿ8…¿££µ2
-G	java:S106"+Replace this use of System.out by a logger.(Å ŒĞ8…¿££µ2
-L	java:S106!"+Replace this use of System.out by a logger.(Õ½¥Çúÿÿÿÿ8…¿££µ2
-L
-java:S2093"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8‡¿££µ2

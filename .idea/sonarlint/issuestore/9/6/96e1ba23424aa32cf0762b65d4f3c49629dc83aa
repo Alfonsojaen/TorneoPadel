@@ -1,15 +1,15 @@
 
 ¥
-java:S1488!"]Immediately return this expression instead of assigning it to the temporary variable "scene".(®°Ÿ‘úÿÿÿÿ8Ò¡Æ£µ2J$39acf7ce-837a-4437-bd2c-ae184d190007
+java:S1488!"]Immediately return this expression instead of assigning it to the temporary variable "scene".(®°Ÿ‘úÿÿÿÿ8Ò¡Æ£µ2J$21f37e1b-1ffb-4517-953d-51b61a015733
 ”
-java:S1104"QMake scene a static final constant or non-public and provide accessors if needed.(äõ8Õ¡Æ£µ2J$c00dd2f5-1a79-4bd4-b86b-7fcb6985361b
+java:S1104"QMake scene a static final constant or non-public and provide accessors if needed.(äõ8Õ¡Æ£µ2J$be85f602-4348-452b-bb4c-81393c83f1cb
  
-java:S1104"XMake primaryStage a static final constant or non-public and provide accessors if needed.(¢Ñû¦ûÿÿÿÿ8Ö¡Æ£µ2J$f73efae0-5829-4499-a622-f736127a7525
+java:S1104"XMake primaryStage a static final constant or non-public and provide accessors if needed.(¢Ñû¦ûÿÿÿÿ8Ö¡Æ£µ2J$d6583840-0251-4c3a-907e-d1823f2078d7
 n
-java:S1444"+Make this "public static scene" field final(äõ8Ú¡Æ£µ2J$d4578553-8daf-40a5-9f78-444e42d6921b
+java:S1444"+Make this "public static scene" field final(äõ8Ú¡Æ£µ2J$dc9c1bbe-2f3a-4f9b-bd3d-42de1bc3c7ce
 z
-java:S1444"2Make this "public static primaryStage" field final(¢Ñû¦ûÿÿÿÿ8Ú¡Æ£µ2J$da8005b0-2f23-4a36-9b4f-3033b8d275ee
+java:S1444"2Make this "public static primaryStage" field final(¢Ñû¦ûÿÿÿÿ8Ú¡Æ£µ2J$7a8fea5b-9ea6-4d43-828a-ec4d46d19d14
 x
-java:S2696"6Make the enclosing method "static" or remove this set.(™·G8õ¡Æ£µ2J$91b7b292-b57b-42c0-8ec4-a9dbffd48d3d
+java:S2696"6Make the enclosing method "static" or remove this set.(™·G8õ¡Æ£µ2J$da54ff7f-6f3a-423d-ba21-9673ee040855
 ~
-java:S2696"6Make the enclosing method "static" or remove this set.(Ì–ÜÄùÿÿÿÿ8ö¡Æ£µ2J$5f50f904-f954-4deb-9dd9-e9a0aa2342a8
+java:S2696"6Make the enclosing method "static" or remove this set.(Ì–ÜÄùÿÿÿÿ8ö¡Æ£µ2J$6e529f5b-a5f7-42be-a0b2-1d7127129f79

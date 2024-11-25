@@ -17,7 +17,7 @@ public class PlayerDAO implements InterfacePlayerDAO<Player> {
     private static final String FINDBYID = "SELECT id, nickname, gender, age, user_username FROM Player WHERE id = ? AND user_username = ?";
     private static final String INSERT = "INSERT INTO Player (nickname, gender, age, user_username) VALUES (?, ?, ?, ?)";
     private static final String UPDATE = "UPDATE Player SET nickname = ?, gender = ?, age = ? WHERE id = ? AND user_username = ?";
-    private static final String DELETE = "DELETE FROM Player WHERE id = ? AND user_username = ?";
+    private static final String DELETE = "DELETE FROM Player WHERE nickname = ? AND user_username = ?";
     private final static String FINDBYNICKNAME = "SELECT a.id, a.nickname, a.gender, a.age, a.user_username FROM Player AS a WHERE a.nickname=?";
     private final static String FINDBYTEAM = "SELECT a.id,a.brotherhood,a.capacity FROM paso AS a, esta AS b WHERE b.pasoId=a.id AND b.cuadrillaId=?";
 
@@ -59,7 +59,7 @@ public class PlayerDAO implements InterfacePlayerDAO<Player> {
     public Player delete(Player player) throws SQLException {
         if (player != null && UserSession.isLogged()) {
             try (PreparedStatement pst = conn.prepareStatement(DELETE)) {
-                pst.setInt(1, player.getId());
+                pst.setString(1, player.getNickname()); // Nickname del jugador
                 pst.setString(2, UserSession.getUser().getUsername()); // Usuario autenticado
                 int affectedRows = pst.executeUpdate();
                 if (affectedRows == 0) {
@@ -74,7 +74,6 @@ public class PlayerDAO implements InterfacePlayerDAO<Player> {
         }
         return player;
     }
-
 
     @Override
     public Player findById(int key) {
@@ -102,8 +101,11 @@ public class PlayerDAO implements InterfacePlayerDAO<Player> {
     public List<Player> findAll() {
         List<Player> players = new ArrayList<>();
         if (UserSession.isLogged()) {
+            String username = UserSession.getUser().getUsername();
+            System.out.println("Buscando jugadores para el usuario: " + username);
+
             try (PreparedStatement pst = conn.prepareStatement(FINDALL)) {
-                pst.setString(1, UserSession.getUser().getUsername()); // Usuario autenticado
+                pst.setString(1, username);
                 ResultSet rs = pst.executeQuery();
                 while (rs.next()) {
                     Player player = new Player();

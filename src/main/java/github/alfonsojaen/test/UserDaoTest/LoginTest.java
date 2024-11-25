@@ -1,4 +1,4 @@
-package github.alfonsojaen.test;
+package github.alfonsojaen.test.UserDaoTest;
 
 import github.alfonsojaen.model.dao.UserDAO;
 import github.alfonsojaen.utils.Utils;

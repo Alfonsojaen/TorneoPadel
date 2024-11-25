@@ -1,0 +1,21 @@
+
+š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ğ¦¨úÿÿÿÿJ$6ddbd9bc-11f2-4ba6-acc2-a0acc6c5be61
+•
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(Çµí‘8§¿¨¶2J$d24bb5ce-0092-46e5-ac2b-07ae6c1db66e
+m	java:S106"+Replace this use of System.out by a logger.( ®ÂÉ8°¿¨¶2J$92f87a06-40af-4282-984d-20d6c7a81da0
+m	java:S106"+Replace this use of System.out by a logger.(³Õö­8³¿¨¶2J$fe7c8fd0-200d-47c4-86e0-afc6c3eefaee
+r	java:S106"+Replace this use of System.out by a logger.(ï¿Ôùÿÿÿÿ8»¿¨¶2J$ffcb684c-d3e4-45e5-aba5-5d6ccbee7fc7
+m	java:S106#"+Replace this use of System.out by a logger.(æ¸­8Á¿¨¶2J$9ecb093f-08e6-4b14-a6ec-8dfb6d532b29
+m	java:S106)"+Replace this use of System.out by a logger.(ŞÃ±Ø8Ã¿¨¶2J$c1f36b42-9d92-4d03-bea7-23ab7b56c1ad
+m	java:S106+"+Replace this use of System.out by a logger.(¹äÚ8Ã¿¨¶2J$e6411272-c456-4482-b425-5d7c89244ec9
+l	java:S1060"+Replace this use of System.out by a logger.(µºµ~8Æ¿¨¶2J$28737dee-f180-499e-b1ed-d5d495caeb0e
+l	java:S1063"+Replace this use of System.out by a logger.(‚÷¢#8Ë¿¨¶2J$24e7ea02-a6ae-4c55-9eb2-18f60b6ce69f
+r	java:S1065"+Replace this use of System.out by a logger.(—ğè¿ùÿÿÿÿ8Ì¿¨¶2J$2d0f6d0c-e5f1-4b2b-ad80-20d96dfd95fa
+r	java:S106:"+Replace this use of System.out by a logger.(Üë²êùÿÿÿÿ8Í¿¨¶2J$548252d1-de2d-45c0-9257-db6f752fa1cf
+m	java:S106>"+Replace this use of System.out by a logger.(»ÌîÌ8Ğ¿¨¶2J$c968ae52-6d02-4a7a-8965-2d50ad519cd5
+m	java:S106@"+Replace this use of System.out by a logger.(¬ÙÔÏ8Ğ¿¨¶2J$1caf4ed3-f41e-44ce-867d-e02510737e45
+r	java:S106E"+Replace this use of System.out by a logger.(ÔêÜÖúÿÿÿÿ8Ò¿¨¶2J$543e0d86-6e75-46d8-988f-7aaae42627b4
+m	java:S106H"+Replace this use of System.out by a logger.(„¹ëÿ8Ó¿¨¶2J$7b4957db-28e2-46ae-a12d-d84a4520191d
+l	java:S106J"+Replace this use of System.out by a logger.(ìòÀe8Ó¿¨¶2J$fbe77775-a348-4db1-ba2b-c2894f6176fc
+m	java:S106R"+Replace this use of System.out by a logger.(ÛÄå©8Ô¿¨¶2J$b212a96a-aaa1-4d90-a3a6-ef4a16ba2748
+r	java:S106]"+Replace this use of System.out by a logger.(­Ğşÿÿÿÿÿ8Ş¿¨¶2J$2a97adac-65a4-4342-94ba-54d12478d607
