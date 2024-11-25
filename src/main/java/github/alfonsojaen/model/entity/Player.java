@@ -22,6 +22,9 @@ public class Player {
         this.teams = teams;
     }
 
+    public Player() {
+
+    }
     public int getId() {
         return id;
     }

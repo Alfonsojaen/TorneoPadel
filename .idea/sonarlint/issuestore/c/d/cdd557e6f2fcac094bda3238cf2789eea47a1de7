@@ -1,0 +1,16 @@
+
+‰
+java:S1192Z"GDefine a constant instead of duplicating this literal "gender" 3 times.(»¶é8ßÿÕ¤¶2J$8e9aea7b-07bf-41ce-b254-c61fad001c81
+Œ
+java:S1192Y"IDefine a constant instead of duplicating this literal "nickname" 3 times.(ñøùÜ8ßÿÕ¤¶2J$797fb742-2368-4d19-8c61-f7a8f6c69e12
+ˆ
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(íÔ¯‘8ıÿÕ¤¶2J$18a35075-76b7-4c0f-bfbb-e1105dbce083
+‡
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(å·»Y8ıÿÕ¤¶2J$76c676f6-ef2a-4e1b-9ab8-712fb1aee18c
+r	java:S106#"+Replace this use of System.out by a logger.(å‘İüÿÿÿÿ8€Ö¤¶2J$e178d2a9-110d-4703-9212-f02c907fcb12
+o
+java:S1168"+Return an empty collection instead of null.(¥¹ï8‘€Ö¤¶2J$c815a2cb-09f0-4d9c-a481-b2ac836ac40e
+x
+java:S2695–"/This "PreparedStatement" only has 1 parameters.(İ«úîùÿÿÿÿ8“€Ö¤¶2J$75802ac0-1881-4843-8c6d-ee39fc8669c1
+p
+java:S1068".Remove this unused "FINDBYTEAM" private field.(å·»Y8™€Ö¤¶2J$46521d1e-64fc-4cf5-abbd-c6d6cc7dcd9a

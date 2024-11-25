@@ -63,7 +63,7 @@ public class User {
 
     @Override
     public String toString() {
-        String hiddenPassword = password.replaceAll(".", "*");
+        String hiddenPassword = (password != null) ? password.replaceAll(".", "*") : "****";
         return "Usuario -> " + name + '\'' +
                 "Nombre del usuario : " + username + '\'' +
                 "Contraseña : " + hiddenPassword + '\'' +

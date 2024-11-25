@@ -1,0 +1,8 @@
+
+m	java:S106"+Replace this use of System.out by a logger.(³Õö­8Þ†Ã¤¶2J$ff7640b0-ff72-467c-9ba7-ea762dea38b7
+r	java:S106"+Replace this use of System.out by a logger.(Íñî³ùÿÿÿÿ8à†Ã¤¶2J$b27cd60b-9265-4422-bef5-5bdb3e4bf94e
+G	java:S106"+Replace this use of System.out by a logger.(ê¤Ýé8ƒ€Å¤¶2
+G	java:S106"+Replace this use of System.out by a logger.(†£³¤8„€Å¤¶2
+G	java:S106""+Replace this use of System.out by a logger.(ÛÄå©8„€Å¤¶2
+O
+java:S1128"2Remove this unused import 'java.sql.SQLException'.(ÛïÆŸ8…€Å¤¶2
