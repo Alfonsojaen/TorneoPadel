@@ -57,3 +57,17 @@ i
 9src/main/java/github/alfonsojaen/view/ControllerMenu.java,1\0\10d2df654796fc1ac1a4d5e573d828df0276a0db
 o
 ?src/main/java/github/alfonsojaen/view/ControllerMenuPlayer.java,8\d\8ddb4a36c1d3c5e05115be4aaea3cf5b3e402e5e
+q
+Asrc/main/java/github/alfonsojaen/view/ControllerInsertPlayer.java,c\1\c15ddb2f805c7e983199ccc39c138f0acd60deef
+q
+Asrc/main/java/github/alfonsojaen/view/ControllerDeletePlayer.java,3\5\3516c124a7391e8d5d6b3ecaf51322e8be136564
+g
+7src/main/java/github/alfonsojaen/model/dao/TeamDAO.java,e\9\e9e0522710eb740cf8404586ef1c32d4e594cf80
+w
+Gsrc/main/java/github/alfonsojaen/model/interfaces/InterfaceTeamDAO.java,8\5\856fe4314f1fc8c2b9c6b45fcb056f21acb588a7
+m
+=src/main/java/github/alfonsojaen/view/ControllerMenuTeam.java,2\a\2a6d006ac45eed80b69f43d90ec0180c58e46103
+q
+Asrc/main/java/github/alfonsojaen/view/ControllerAssignPlayer.java,2\4\24141306119c40f0f53792420a7f5ba175a7cadf
+o
+?src/main/java/github/alfonsojaen/view/ControllerInsertTeam.java,b\6\b6d2bffc17981d3384e56d25f39b9916241767da

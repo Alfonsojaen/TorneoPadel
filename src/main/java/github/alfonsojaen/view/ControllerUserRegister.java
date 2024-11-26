@@ -77,7 +77,7 @@ public class ControllerUserRegister {
     @FXML
     private void switchToLoginUser() {
         try {
-            Scenes.setRoot("pantallaLoginUser");
+            Scenes.setRoot("pantallaLoginUser", null);
         } catch (IOException e) {
             e.printStackTrace();
         }

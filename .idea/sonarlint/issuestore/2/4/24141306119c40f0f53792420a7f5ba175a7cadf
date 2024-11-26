@@ -1,0 +1,10 @@
+
+p
+java:S5411F"(Use a primitive boolean expression here.(¬‰‘™şÿÿÿÿ8°ï¾É¶2J$af2d23b2-a14f-4b82-b811-449d66dda7a4
+
+java:S2095S"GUse try-with-resources or close this "PlayerDAO" in a "finally" clause.(’í•“ûÿÿÿÿ8Œğ¾É¶2J$7e218d07-4592-4773-be98-be96a86da2ad
+š	java:S116"SRename this field "Selected" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹ŞÂñùÿÿÿÿ8ğ¾É¶2J$9faa12c6-f473-497f-86b1-aa7506d15ef8
+œ
+java:S1845"TRename field "Selected" to prevent any misunderstanding/clash with field "selected".(¹ŞÂñùÿÿÿÿ8ğ¾É¶2J$27e0e995-bd23-4883-968f-e296a3167c71
+Š
+java:S1126V"BReplace this if-then-else statement by a single method invocation.(¡¡š™úÿÿÿÿ8™ğ¾É¶2J$c5fae53e-6c6e-405e-90e9-7328b3912632

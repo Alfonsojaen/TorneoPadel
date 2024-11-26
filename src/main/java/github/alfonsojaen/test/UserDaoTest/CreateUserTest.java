@@ -13,7 +13,7 @@ public class CreateUserTest {
                 try {
                     System.out.println("Creando un nuevo usuario...");
                     String encryptedPassword = Utils.encryptSHA256("password123");
-                    User newUser = new User("hola", encryptedPassword, "el@gmail.com", "Test");
+                    User newUser = new User("te", encryptedPassword, "el@gmail.com", "Test");
                     userDAO.save(newUser);
                     System.out.println("Usuario creado: " + newUser);
                 } catch (SQLException e) {

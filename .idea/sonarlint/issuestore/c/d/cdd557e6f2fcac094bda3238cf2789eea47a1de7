@@ -1,17 +1,12 @@
 
 ‰
-java:S1192Y"GDefine a constant instead of duplicating this literal "gender" 3 times.(»¶é8¸˜«§¶2J$4f3de0c8-a554-4d23-bdfc-d8844f8f3f41
+java:S1192Y"GDefine a constant instead of duplicating this literal "gender" 4 times.(»¶é8¸˜«§¶2J$8906dfea-d796-4df0-9a06-c1b0244a8c8d
 Œ
-java:S1192X"IDefine a constant instead of duplicating this literal "nickname" 3 times.(ñøùÜ8¹˜«§¶2J$63660446-1be9-4f9c-8816-17486caaf946
+java:S1192X"IDefine a constant instead of duplicating this literal "nickname" 4 times.(ñøùÜ8¹˜«§¶2J$cbb4b19d-f18d-4ea8-aa99-7cf83eb661f7
 ˆ
-java:S1124"EReorder the modifiers to comply with the Java Language Specification.(íÔ¯‘8™«§¶2J$9496cce7-4674-4a67-b9f4-09c463790227
-‡
-java:S1124"EReorder the modifiers to comply with the Java Language Specification.(å·»Y8‘™«§¶2J$62b7c0d1-4e19-4de3-8805-a30b2937c93c
-r	java:S106#"+Replace this use of System.out by a logger.(å‘İüÿÿÿÿ8™™«§¶2J$1893b048-7c94-46e4-8a3b-4419c26552c4
-L	java:S106i"+Replace this use of System.out by a logger.(ë­‡öüÿÿÿÿ8ÿ¼«¶2
-o
-java:S1168"+Return an empty collection instead of null.(¥¹ï8Ç™«§¶2J$9c6662e2-1946-49f3-af0a-6e60b78de1c4
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(íÔ¯‘8™«§¶2J$38e75f32-430d-4e86-970a-b8bf95efe200
+ˆ
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(äŸœ¨8‘™«§¶2J$2fcbca78-aa83-42f7-a7bf-dc505a4365cf
+r	java:S106#"+Replace this use of System.out by a logger.(å‘İüÿÿÿÿ8™™«§¶2J$6acf8676-0e5d-4157-9cb1-6991a236bc39
 x
-java:S2695˜"/This "PreparedStatement" only has 1 parameters.(İ«úîùÿÿÿÿ8Ê™«§¶2J$bd537e8d-f99e-442f-91cb-c526c2fd8be6
-p
-java:S1068".Remove this unused "FINDBYTEAM" private field.(å·»Y8Ø™«§¶2J$3a0591aa-4425-4ae8-b2a0-27c4b1971a81
+java:S2695¦"/This "PreparedStatement" only has 1 parameters.(İ«úîùÿÿÿÿ8Ê™«§¶2J$5f0a9c41-6e02-4920-962e-5bd59449f6f5

@@ -1,6 +1,6 @@
 
-¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¬çë±úÿÿÿÿ8ä’Ù§¶2J$63c9b4ab-d57d-4210-976d-0dd35ac4bd45
-m	java:S106"+Replace this use of System.out by a logger.(–ôâ²8É à¢µ2J$cd9b4178-b053-4326-9d4b-5f88db8c30af
-r	java:S106"+Replace this use of System.out by a logger.(”÷Ù®ÿÿÿÿÿ8Ì à¢µ2J$07195fe0-9ae1-4ed4-917e-8943dd488c69
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¬çë±úÿÿÿÿ8ä’Ù§¶2J$5a17760d-fcac-48ed-aee8-685da122a90d
+m	java:S106"+Replace this use of System.out by a logger.(–ôâ²8É à¢µ2J$de564b8a-61d1-4953-b3d9-e9d87fd83a9b
+r	java:S106"+Replace this use of System.out by a logger.(”÷Ù®ÿÿÿÿÿ8Ì à¢µ2J$da788432-ceb5-4abb-aa14-cf8dd43a3e20
 r
-java:S2093"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8Í à¢µ2J$187b6032-6cd9-4a05-9bab-b4b8eecbea15
+java:S2093"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8Í à¢µ2J$7e920ad2-a5da-4f5a-ac2b-446eef8bcdda

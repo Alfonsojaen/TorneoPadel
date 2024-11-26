@@ -1,0 +1,13 @@
+
+	java:S112L"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8‡™ÄÉ¶2J$40965811-0c58-4c3e-b9cc-575246ec5883
+~
+java:S4973r"<Strings and Boxed types should be compared using "equals()".(ûŞÏC8‹™ÄÉ¶2J$dd4fbc53-d245-4d3b-8225-5ea174934516
+~
+java:S4973"<Strings and Boxed types should be compared using "equals()".(ûŞÏC8Œ™ÄÉ¶2J$54826150-822b-43f9-9d10-810f861718dd
+—
+java:S1450%"TRemove the "teams" field and declare it as a local variable in the relevant methods.(·§ÈÍ8«™ÄÉ¶2J$08679998-7147-4b78-ab91-99441db44cda
+š
+java:S3776;"RRefactor this method to reduce its Cognitive Complexity from 37 to the 15 allowed.(•‘İŸüÿÿÿÿ8¶™ÄÉ¶2J$eafb20e9-fa09-4183-bc8c-8224ecc47983
+|
+java:S1117="9Rename "teams" which hides the field declared at line 37.(œÕè8¹™ÄÉ¶2J$6b1d048e-b194-4f7a-ad89-45ebbe95923f
+m	java:S106>"+Replace this use of System.out by a logger.(¸Üï‰8ûÖÉ¶2J$abaee721-ca66-46f1-85fe-6e421a825401

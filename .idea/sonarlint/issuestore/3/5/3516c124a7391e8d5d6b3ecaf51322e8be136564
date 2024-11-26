@@ -1,0 +1,5 @@
+
+n
+java:S1602",Remove useless curly braces around statement(×®ú08¶§ç¾¶2J$71eef1f4-4d58-4bb8-8571-6735a2f0a2e5
+±
+java:S11309"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(ŸÛ’Ó8¿§ç¾¶2J$c31b9d93-b442-47b5-8cf4-724e2e29786f

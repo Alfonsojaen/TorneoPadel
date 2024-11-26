@@ -20,7 +20,7 @@ public class CrearyBuscarPlayerTest {
 
         PlayerDAO playerDAO = PlayerDAO.build();
         Player newPlayer = new Player();
-        newPlayer.setNickname("adios");
+        newPlayer.setNickname("alfonso");
         newPlayer.setGender("hombre");
         newPlayer.setAge(10);
 

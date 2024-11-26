@@ -19,7 +19,7 @@ public class PlayerDAO implements InterfacePlayerDAO<Player> {
     private static final String UPDATE = "UPDATE Player SET nickname = ?, gender = ?, age = ? WHERE id = ? AND user_username = ?";
     private static final String DELETE = "DELETE FROM Player WHERE nickname = ? AND user_username = ?";
     private final static String FINDBYNICKNAME = "SELECT a.id, a.nickname, a.gender, a.age, a.user_username FROM Player AS a WHERE a.nickname=?";
-    private final static String FINDBYTEAM = "SELECT a.id,a.brotherhood,a.capacity FROM paso AS a, esta AS b WHERE b.pasoId=a.id AND b.cuadrillaId=?";
+    private final static String FINDBYTEAM = "SELECT a.id,a.nickname,a.gender,a.age FROM Player AS a, Esta AS b WHERE b.playerId=a.id AND b.teamId=?";
 
 
     private Connection conn;
@@ -102,8 +102,6 @@ public class PlayerDAO implements InterfacePlayerDAO<Player> {
         List<Player> players = new ArrayList<>();
         if (UserSession.isLogged()) {
             String username = UserSession.getUser().getUsername();
-            System.out.println("Buscando jugadores para el usuario: " + username);
-
             try (PreparedStatement pst = conn.prepareStatement(FINDALL)) {
                 pst.setString(1, username);
                 ResultSet rs = pst.executeQuery();
@@ -140,7 +138,23 @@ public class PlayerDAO implements InterfacePlayerDAO<Player> {
 
     @Override
     public List<Player> findByTeam(Team team) {
-        return null;
+        List<Player> result = new ArrayList<>();
+        try(PreparedStatement pst = ConnectionMariaDB.getConnection().prepareStatement(FINDBYTEAM)) {
+            pst.setInt(1, team.getId());
+            ResultSet res = pst.executeQuery();
+            while (res.next()){
+                Player p = new Player();//LAZY
+                p.setId(res.getInt(1));
+                p.setNickname(res.getString("nickname"));
+                p.setGender(res.getString("gender"));
+                p.setAge(res.getInt("age"));
+                result.add(p);
+            }
+            res.close();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return result;
     }
 
     @Override

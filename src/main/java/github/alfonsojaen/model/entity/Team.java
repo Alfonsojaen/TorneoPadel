@@ -10,7 +10,6 @@ public class Team {
     private String coach;
     private String description;
     private User user;
-    private List<Player> players;
     private List<Tournament> tournaments;
 
     public Team(int id, String name, String coach, String description, List<Player> players, List<Tournament> tournaments) {
@@ -19,8 +18,10 @@ public class Team {
         this.coach = coach;
         this.description = description;
         this.user = user;
-        this.players = players;
         this.tournaments = tournaments;
+    }
+
+    public Team() {
     }
 
     public int getId() {
@@ -78,27 +79,31 @@ public class Team {
     public void setTournaments(List<Tournament> tournaments) {
         this.tournaments = tournaments;
     }
-    /**
-     * Adds a player to the list if it's not already present.
-     * @param player The paso to be added.
-     */
-    public void addPlayer(Player player){
-        if(players==null){
-            players = new ArrayList<>();
+
+    private List<Player> players = new ArrayList<>();  // Siempre se inicializa
+
+    public List<Player> getPlayer() {
+        return players;
+    }
+
+    public void setPlayer(List<Player> players) {
+        if (players == null) {
+            this.players = new ArrayList<>();  // Asegura que no se quede como null
+        } else {
+            this.players = players;
         }
-        if(!players.contains(player)){
+    }
+
+    public void addPlayer(Player player) {
+        if (!players.contains(player)) {
             players.add(player);
         }
     }
-    /**
-     * Removes a player from the list if it exists.
-     * @param player The paso to be removed.
-     */
-    public void removeTeam(Player player){
-        if(players!=null){
-            players.remove(player);
-        }
+
+    public void removePlayer(Player player) {
+        players.remove(player);
     }
+
     @Override
     public boolean equals(Object object) {
         if (this == object) return true;

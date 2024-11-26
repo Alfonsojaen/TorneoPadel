@@ -1,7 +1,6 @@
 package github.alfonsojaen.model.entity;
 
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
@@ -11,6 +10,7 @@ public class Player {
     private String gender;
     private int age;
     private User user;
+    private boolean selected;
     private List<Team> teams;
 
     public Player(int id, String nickname, String gender, int age, User user, List<Team> teams) {
@@ -19,6 +19,7 @@ public class Player {
         this.gender = gender;
         this.age = age;
         this.user = user;
+        this.selected = false;
         this.teams = teams;
     }
 
@@ -73,6 +74,13 @@ public class Player {
         this.teams = teams;
     }
 
+    public boolean isSelected() {
+        return selected;
+    }
+
+    public void setSelected(boolean selected) {
+        this.selected = selected;
+    }
     @Override
     public boolean equals(Object object) {
         if (this == object) return true;

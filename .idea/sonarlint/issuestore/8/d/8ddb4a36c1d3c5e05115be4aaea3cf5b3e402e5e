@@ -1,11 +1,5 @@
 
-†
-java:S1192X"iDefine a constant instead of duplicating this literal "Te has pasado del lÃ­mite de caracteres!" 3 times.(×Ìß¾8ÊŸ—¬¶2
 ž
-java:S1450%"VRemove the "players" field and declare it as a local variable in the relevant methods.(‚ßÏçûÿÿÿÿ8€¢Ü«¶2J$8f571bab-e5f2-4125-bd24-af20ab2e3b72
+java:S1450%"VRemove the "players" field and declare it as a local variable in the relevant methods.(‚ßÏçûÿÿÿÿ8€¢Ü«¶2J$10d5d823-6d5f-4be2-aa10-e0eb9240a6ba
 š
-java:S37768"RRefactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.(•‘ÝŸüÿÿÿÿ8„¢Ü«¶2J$fb72ead0-6b74-4570-9c4a-9778c46e5b14
-r	java:S1069"+Replace this use of System.out by a logger.(ˆÅïÓüÿÿÿÿ8†¢Ü«¶2J$1cd33bcf-71c6-49a5-afee-839f667335ff
-r	java:S106="+Replace this use of System.out by a logger.( ¨§Ñùÿÿÿÿ8‡¢Ü«¶2J$73c10f62-760a-476f-a8fc-087cdc57bc95
-r	java:S106C"+Replace this use of System.out by a logger.(ƒíî·ûÿÿÿÿ8ˆ¢Ü«¶2J$7111e508-379c-41eb-a353-4a32b7dbae7c
-m	java:S106D"+Replace this use of System.out by a logger.(ÏÚî±8ˆ¢Ü«¶2J$d29ddb7b-68db-4237-92ed-230487fc00bb
+java:S37768"RRefactor this method to reduce its Cognitive Complexity from 28 to the 15 allowed.(•‘ÝŸüÿÿÿÿ8„¢Ü«¶2J$f59f3b49-e642-4f5a-9079-f5c42f202f07

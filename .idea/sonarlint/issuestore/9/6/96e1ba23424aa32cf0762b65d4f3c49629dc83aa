@@ -1,15 +1,16 @@
 
 ¥
-java:S1488!"]Immediately return this expression instead of assigning it to the temporary variable "scene".(®°Ÿ‘úÿÿÿÿ8Ò¡Æ£µ2J$21f37e1b-1ffb-4517-953d-51b61a015733
+java:S1488*"]Immediately return this expression instead of assigning it to the temporary variable "scene".(®°Ÿ‘úÿÿÿÿ8â†­É¶2J$26beb531-960b-436f-9255-18997dd9ea14
 ”
-java:S1104"QMake scene a static final constant or non-public and provide accessors if needed.(äõ8Õ¡Æ£µ2J$be85f602-4348-452b-bb4c-81393c83f1cb
+java:S1104"QMake scene a static final constant or non-public and provide accessors if needed.(äõ8ã†­É¶2J$027b72ff-88ce-46bb-99c3-f30607ae44f0
  
-java:S1104"XMake primaryStage a static final constant or non-public and provide accessors if needed.(¢Ñû¦ûÿÿÿÿ8Ö¡Æ£µ2J$d6583840-0251-4c3a-907e-d1823f2078d7
+java:S1104"XMake primaryStage a static final constant or non-public and provide accessors if needed.(¢Ñû¦ûÿÿÿÿ8ã†­É¶2J$4f6baf2b-fa4d-49dd-a6ce-c94559acaf11
 n
-java:S1444"+Make this "public static scene" field final(äõ8Ú¡Æ£µ2J$dc9c1bbe-2f3a-4f9b-bd3d-42de1bc3c7ce
+java:S1444"+Make this "public static scene" field final(äõ8ä†­É¶2J$b3258244-b063-47c8-bc17-b366402c5f70
 z
-java:S1444"2Make this "public static primaryStage" field final(¢Ñû¦ûÿÿÿÿ8Ú¡Æ£µ2J$7a8fea5b-9ea6-4d43-828a-ec4d46d19d14
+java:S1444"2Make this "public static primaryStage" field final(¢Ñû¦ûÿÿÿÿ8ä†­É¶2J$43acde08-816e-4335-88d3-75020668dbfc
 x
-java:S2696"6Make the enclosing method "static" or remove this set.(™·G8õ¡Æ£µ2J$da54ff7f-6f3a-423d-ba21-9673ee040855
+java:S2696"6Make the enclosing method "static" or remove this set.(™·G8ñ†­É¶2J$91e5280c-110c-4303-af92-d4c31edb30e5
 ~
-java:S2696"6Make the enclosing method "static" or remove this set.(Ì–ÜÄùÿÿÿÿ8ö¡Æ£µ2J$6e529f5b-a5f7-42be-a0b2-1d7127129f79
+java:S2696"6Make the enclosing method "static" or remove this set.(Ì–ÜÄùÿÿÿÿ8ñ†­É¶2J$0dd4844e-02d4-45c1-9ae2-44fb2efc5b05
+r	java:S106&"+Replace this use of System.out by a logger.(«øİ„úÿÿÿÿ8»®É¶2J$c614e9ce-d7f5-4cfb-8c2c-8f17e25a6bb6

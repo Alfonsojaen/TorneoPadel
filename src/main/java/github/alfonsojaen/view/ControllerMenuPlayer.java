@@ -38,34 +38,25 @@ public class ControllerMenuPlayer implements Initializable {
 
     @FXML
     private void switchToMenu() throws IOException {
-        Scenes.setRoot("pantallaMenu");
+        Scenes.setRoot("pantallaMenu",null);
     }
 
     @FXML
     private void switchToInsertPaso() throws IOException {
-        Scenes.setRoot("pantallaInsertPaso");
+        Scenes.setRoot("pantallaInsertPlayer",null);
     }
 
     @FXML
     private void switchToDeletePaso() throws IOException {
-        Scenes.setRoot("pantallaDeletePaso");
+        Scenes.setRoot("pantallaDeletePlayer",null);
     }
 
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
-        System.out.println("Usuario autenticado al inicializar: " + (UserSession.isLogged() ? UserSession.getUser() : "Ninguno"));
-
-        // Verifica si el login se realizó correctamente antes de obtener el usuario
         if (UserSession.isLogged()) {
-            System.out.println("Usuario autenticado correctamente: " + UserSession.getUser().getUsername());  // Muestra el nombre del usuario
-            // Aquí, asegúrate de obtener correctamente los jugadores asociados
             List<Player> pasos = PlayerDAO.build().findAll();
             this.players = FXCollections.observableArrayList(pasos);
-
-            // Mostrar jugadores obtenidos
-            System.out.println("Jugadores obtenidos al inicializar:");
-            pasos.forEach(System.out::println);
 
             tableview.setItems(this.players);
             tableview.setEditable(true);
@@ -77,30 +68,47 @@ public class ControllerMenuPlayer implements Initializable {
 
             nickname.setCellFactory(TextFieldTableCell.forTableColumn());
             nickname.setOnEditCommit(event -> {
-                if (event.getNewValue().equals(event.getOldValue())) {
+                String newNickname = event.getNewValue();
+                String oldNickname = event.getOldValue();
+
+                if (newNickname.equals(oldNickname)) {
                     return;
                 }
-                if (event.getNewValue().length() <= 25) {
-                    Player player = event.getRowValue();
-                    player.setNickname(event.getNewValue());
-                    PlayerDAO.build().update(player);
+
+                if (newNickname.length() <= 25) {
+                    boolean exists = PlayerDAO.build().findAll().stream()
+                            .anyMatch(player -> player.getNickname().equals(newNickname));
+                    if (exists) {
+                        Utils.ShowAlert("El Nombre ya está en uso. Elige otro.");
+                    } else {
+                        Player player = event.getRowValue();
+                        player.setNickname(newNickname);
+                        PlayerDAO.build().update(player);
+                    }
                 } else {
                     Utils.ShowAlert("Te has pasado del límite de caracteres!");
                 }
             });
+
             gender.setCellFactory(TextFieldTableCell.forTableColumn());
             gender.setOnEditCommit(event -> {
-                if (event.getNewValue().equals(event.getOldValue())) {
+                String newGender = event.getNewValue();
+                String oldGender = event.getOldValue();
+
+                if (newGender.equals(oldGender)) {
                     return;
                 }
-                if (event.getNewValue().length() <= 3) {
+
+                // Validar que el género sea "Masculino" o "Femenino"
+                if (newGender.equalsIgnoreCase("Masculino") || newGender.equalsIgnoreCase("Femenino")) {
                     Player player = event.getRowValue();
-                    player.setGender(event.getNewValue());
+                    player.setGender(newGender);
                     PlayerDAO.build().update(player);
                 } else {
-                    Utils.ShowAlert("Te has pasado del límite de caracteres!");
+                    Utils.ShowAlert("Género inválido. Solo se permite Masculino o Femenino.");
                 }
             });
+
             age.setCellFactory(TextFieldTableCell.forTableColumn());
             age.setOnEditCommit(event -> {
                 if (event.getNewValue().equals(event.getOldValue())) {
@@ -116,4 +124,5 @@ public class ControllerMenuPlayer implements Initializable {
             });
         }
     }
+
 }
