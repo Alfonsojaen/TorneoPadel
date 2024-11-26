@@ -1,27 +1,28 @@
 
 
-java:S1192]"LDefine a constant instead of duplicating this literal "description" 4 times.(ÕŒ¾é8„ÚÊÇ¶2J$930a62c1-c67e-4e27-b99d-1636f1cfbd92
+java:S1192\"LDefine a constant instead of duplicating this literal "description" 4 times.(ÕŒ¾é8è€ÄË¶2J$762a0a01-f9f1-4d39-aa54-d181a1fd9125
 ‰
-java:S1192\"FDefine a constant instead of duplicating this literal "coach" 4 times.(•İù’8„ÚÊÇ¶2J$3110d5c9-7356-494c-8fa1-d2503f99438c
+java:S1192["FDefine a constant instead of duplicating this literal "coach" 4 times.(•İù’8é€ÄË¶2J$291f7065-7723-4fd0-9dab-6bddaa734b32
 
-java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ŠÛÙ¦ûÿÿÿÿ8§ÚÊÇ¶2J$23bc9353-b3da-4633-952a-9c21258256c4
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ŠÛÙ¦ûÿÿÿÿ8ÄË¶2J$c48fcc3a-a786-4c1b-b8f5-a8701f3e1a77
 
-java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ì³… üÿÿÿÿ8§ÚÊÇ¶2J$5b4892d7-1928-4f81-bd6d-33c417dc31f2
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ì³… üÿÿÿÿ8ÄË¶2J$fc9a67d4-7244-4337-8b14-24748502b4f9
 ˆ
-java:S1124"EReorder the modifiers to comply with the Java Language Specification.(¯úä­8§ÚÊÇ¶2J$f85a5925-27bc-47dd-9f25-43679a8818eb
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(¯úä­8ÄË¶2J$5068bedf-1d03-41a8-9d51-98f20dffe60f
 ˆ
-java:S1124"EReorder the modifiers to comply with the Java Language Specification.(øûû8§ÚÊÇ¶2J$52e0494d-dec0-4d95-80c7-bfdd3acc5d69
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(øûû8ÄË¶2J$4ab32bcc-35da-4adf-b2e5-63f27435dc5d
 ˆ
-java:S1124"EReorder the modifiers to comply with the Java Language Specification.(Ø³¼Ş8¨ÚÊÇ¶2J$24a408b0-9ef6-4943-a23a-1dec690bdee5
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(Ø³¼Ş8ÄË¶2J$f835c5a4-a0db-4fe3-819d-b72c86a41934
 ˆ
-java:S1124"EReorder the modifiers to comply with the Java Language Specification.(©€Ù¡8¨ÚÊÇ¶2J$e746317b-8865-4402-bee8-3312ed478a23
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(©€Ù¡8ÄË¶2J$4bce3b96-b8c2-47ad-a05b-b4a7778cfe34
 ˆ
-java:S1124"EReorder the modifiers to comply with the Java Language Specification.(Ô£ûÇ8¨ÚÊÇ¶2J$5f8945a5-982b-41ce-ba4d-2439e0a82124
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(Ô£ûÇ8ÄË¶2J$fc5bed64-1d91-48dd-8eba-df4509036218
 ˆ
-java:S1124"EReorder the modifiers to comply with the Java Language Specification.(éÙÿÛ8¨ÚÊÇ¶2J$39071733-06fc-4a26-918b-c40507b3fd97
-m	java:S106%"+Replace this use of System.out by a logger.(³Õö­8«ÚÊÇ¶2J$edd0cf07-05c0-40a6-a090-1ddc7a79e48b
-l	java:S108„")Either remove or fill this block of code.(É®£8·ÚÊÇ¶2J$70c396ea-f909-4868-bc69-3bbc22c9bb36
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(éÙÿÛ8ÄË¶2J$bc835878-8a05-49fc-9e5c-78304eca9d61
+ˆ
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ÙÍØ‡8ÁÁïË¶2J$1fc7bd93-85ae-4435-a1ab-3ed6b888a43e
+l	java:S108ƒ")Either remove or fill this block of code.(É®£8ÄË¶2J$3e2e902f-9fc9-4a9e-bb36-13e8212da9d7
 s
-java:S2695§"/This "PreparedStatement" only has 1 parameters.(ˆú†ñ8½ÚÊÇ¶2J$47a8176c-846d-42d7-aa92-73ea1c69970e
+java:S2695¦"/This "PreparedStatement" only has 1 parameters.(ˆú†ñ8¢ÄË¶2J$bd1ec250-52bf-4b17-9bd9-65b2d7fcf117
 w
-java:S2388ß".Prefix this call to "setPlayer" with "super.".(¤†òöÿÿÿÿÿ8æ¥ŞÉ¶2J$6942d665-a59d-41bb-bfe4-9ba22eda437a
+java:S2388ó".Prefix this call to "setPlayer" with "super.".(¤†òöÿÿÿÿÿ8¨ÄË¶2J$fe73d6d8-388d-4b89-9113-9c2e5b4de528

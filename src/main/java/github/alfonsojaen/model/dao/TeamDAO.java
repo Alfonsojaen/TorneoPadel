@@ -23,7 +23,7 @@ public class TeamDAO implements InterfaceTeamDAO<Team> {
     private final static String FINDTEAMBYTOURNAMENT = "SELECT a.id, a.name, a.coach, a.description, a.user_username FROM Team AS a, Pertenece AS b WHERE b.teamId=a.id AND b.tournamentId=?";
     private final static String INSERTPLAYER = "INSERT INTO Esta (playerId, teamId) VALUES (?,?)";
     private final static String DELETEPLAYER = "DELETE FROM Esta WHERE teamId=?";
-
+    private final static String GETPLAYER = "SELECT playerId FROM Esta WHERE teamId = ?";
     private Connection conn;
 
     // Constructor
@@ -34,7 +34,6 @@ public class TeamDAO implements InterfaceTeamDAO<Team> {
     @Override
     public Team save(Team team) throws SQLException {
         if (team != null && UserSession.isLogged()) {
-            System.out.println("Usuario autenticado: " + UserSession.getUser());
             Team existing = findById(team.getId());
             if (existing.getId() == 0) {
                 // INSERT
@@ -178,6 +177,27 @@ public class TeamDAO implements InterfaceTeamDAO<Team> {
             }
         }
         return result;
+    }
+
+    public List<Player> getPlayersByTeam(int teamId) {
+        List<Player> players = new ArrayList<>();
+        try (PreparedStatement pst = conn.prepareStatement(GETPLAYER)) {
+            pst.setInt(1, teamId);
+            ResultSet res = pst.executeQuery();
+            while (res.next()) {
+                int playerId = res.getInt("playerId");
+                Player player = PlayerDAO.build().findById(playerId);
+
+                if (player != null) {
+                    players.add(player);
+                }
+            }
+            res.close();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+
+        return players;
     }
 
 
