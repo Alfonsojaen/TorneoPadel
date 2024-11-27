@@ -163,8 +163,7 @@ public class ControllerMenuTournament implements Initializable {
                             }
                             setGraphic(datePicker);
                             setContentDisplay(ContentDisplay.GRAPHIC_ONLY);
-
-                            datePicker.setOnAction(event -> commitEdit(datePicker.getValue().toString()));
+                            datePicker.setOnAction(event -> commitEdit(datePicker.getValue() != null ? datePicker.getValue().toString() : previousValue));
                         }
 
                         @Override
@@ -199,7 +198,11 @@ public class ControllerMenuTournament implements Initializable {
                                     Utils.ShowAlert("Formato de Fecha de Inicio incorrecto.");
                                     setText(previousValue);
                                 }
+                            } else {
+                                setText(previousValue);
                             }
+
+                            setGraphic(null);
                         }
 
                         @Override
@@ -228,14 +231,13 @@ public class ControllerMenuTournament implements Initializable {
                         public void startEdit() {
                             super.startEdit();
                             if (getItem() != null) {
-
                                 previousValue = getItem();
                                 datePicker.setValue(LocalDate.parse(getItem()));
                             }
                             setGraphic(datePicker);
                             setContentDisplay(ContentDisplay.GRAPHIC_ONLY);
 
-                            datePicker.setOnAction(event -> commitEdit(datePicker.getValue().toString()));
+                            datePicker.setOnAction(event -> commitEdit(datePicker.getValue() != null ? datePicker.getValue().toString() : previousValue));
                         }
 
                         @Override
@@ -255,6 +257,7 @@ public class ControllerMenuTournament implements Initializable {
                                     java.sql.Date endDateParsed = java.sql.Date.valueOf(localEndDate);
 
                                     Tournament tournament = getTableRow().getItem();
+
                                     if (endDateParsed.after(tournament.getStartDate())) {
                                         tournament.setEndDate(endDateParsed);
                                         TournamentDAO.build().update(tournament);
@@ -268,7 +271,11 @@ public class ControllerMenuTournament implements Initializable {
                                     Utils.ShowAlert("Formato de Fecha de Fin incorrecto.");
                                     setText(previousValue);
                                 }
+                            } else {
+                                setText(previousValue);
                             }
+
+                            setGraphic(null);
                         }
 
                         @Override
@@ -285,6 +292,8 @@ public class ControllerMenuTournament implements Initializable {
                     };
                 }
             });
+
+
 
             location.setCellFactory(TextFieldTableCell.forTableColumn());
             location.setOnEditCommit(event -> {

@@ -1,5 +1,7 @@
 
-”
-java:S2259R"LA "NullPointerException" could be thrown; "startDateInput" is nullable here.(²ªÃÕøÿÿÿÿ8¤Í ô¶2J$f8a80847-5d01-4818-b982-a0e6d018bef6
-¶
-java:S1130l"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(…ì †ýÿÿÿÿ8ƒ™òó¶2J$e5ad43a5-23f5-4b94-96d4-b1d92fde3729
+•
+java:S3776'"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(÷›Üè8„€Îø¶2J$cdcc4162-bd95-444e-8471-f037aaed4789
+·
+java:S1130‡"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(…ì †ýÿÿÿÿ8›€Îø¶2J$5963d0b1-d52b-4843-b4f7-f02832f8c194
+m
+java:S1128"*Remove this unused import 'java.sql.Date'.(ÙÀ½Ê8¤€Îø¶2J$eb3fbeff-1e77-42a0-89c2-d7cfbf65ccb2

@@ -24,8 +24,8 @@
                   <TableColumn fx:id="prize" prefWidth="68.79998779296875" text="Precio" />
                </columns>
             </TableView>
-            <Button layoutX="90.0" layoutY="344.0" mnemonicParsing="false" onAction="#switchToInsertTournament" prefHeight="26.0" prefWidth="134.0" style="-fx-background-color: PURPLE;" text="CREAR EQUIPO" textFill="WHITE" />
-            <Button layoutX="357.0" layoutY="344.0" mnemonicParsing="false" onAction="#switchToDeleteTornament" style="-fx-background-color: PURPLE;" text="ELIMINAR EQUIPO" textFill="WHITE" />
+            <Button layoutX="90.0" layoutY="344.0" mnemonicParsing="false" onAction="#switchToInsertTournament" prefHeight="26.0" prefWidth="134.0" style="-fx-background-color: PURPLE;" text="CREAR TORNEO" textFill="WHITE" />
+            <Button layoutX="357.0" layoutY="344.0" mnemonicParsing="false" onAction="#switchToDeleteTornament" style="-fx-background-color: PURPLE;" text="ELIMINAR TORNEO" textFill="WHITE" />
             <Text layoutX="157.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MENU TORNEO">
                <font>
                   <Font name="Calibri Bold Italic" size="40.0" />

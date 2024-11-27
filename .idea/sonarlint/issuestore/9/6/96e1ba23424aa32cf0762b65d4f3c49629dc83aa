@@ -1,17 +1,17 @@
 
 ¥
-java:S14881"]Immediately return this expression instead of assigning it to the temporary variable "scene".(®°‘ϊÿÿÿÿ8δ†μμ¶2J$fc126fcb-8136-4628-ae06-facd37f268e9
+java:S14881"]Immediately return this expression instead of assigning it to the temporary variable "scene".(®°‘ϊÿÿÿÿ8δ†μμ¶2J$83fce102-1bf4-42d8-8eae-2485c6803ce3
 ”
-java:S1104"QMake scene a static final constant or non-public and provide accessors if needed.(δυ8ζ†μμ¶2J$2352f78a-6883-4c44-89dc-1dee0be81470
+java:S1104"QMake scene a static final constant or non-public and provide accessors if needed.(δυ8ζ†μμ¶2J$9593edf4-4b46-4cc1-91c5-56e8cc633418
  
-java:S1104"XMake primaryStage a static final constant or non-public and provide accessors if needed.(ΆΡϋ¦ϋÿÿÿÿ8ζ†μμ¶2J$c33a9ad5-5fb1-4788-8d5d-d609ee737949
+java:S1104"XMake primaryStage a static final constant or non-public and provide accessors if needed.(ΆΡϋ¦ϋÿÿÿÿ8ζ†μμ¶2J$3a875268-f8cf-4dad-8f0f-065957733819
 n
-java:S1444"+Make this "public static scene" field final(δυ8ζ†μμ¶2J$a89cb68f-57cc-4c14-a5dd-88de309288c4
+java:S1444"+Make this "public static scene" field final(δυ8ζ†μμ¶2J$e71f9968-ebab-4125-91d7-636eb8a2bb52
 z
-java:S1444"2Make this "public static primaryStage" field final(ΆΡϋ¦ϋÿÿÿÿ8η†μμ¶2J$677b2dfe-a74b-4130-abdd-5d7942bdf2ab
+java:S1444"2Make this "public static primaryStage" field final(ΆΡϋ¦ϋÿÿÿÿ8η†μμ¶2J$f9ad61b9-7053-42d6-a1f5-c3aac4262445
 x
-java:S2696"6Make the enclosing method "static" or remove this set.(™·G8ω†μμ¶2J$4a21a1e3-f0c7-4e92-b0a4-4048cd1e038c
+java:S2696"6Make the enclosing method "static" or remove this set.(™·G8ω†μμ¶2J$5e3e05de-f48a-4192-baa7-c7bca77cbc0e
 ~
-java:S2696"6Make the enclosing method "static" or remove this set.(Μ–άΔωÿÿÿÿ8ω†μμ¶2J$e739f0b0-600f-4996-a85c-0d7c973ff3cd
-p	java:S108'")Either remove or fill this block of code.(™ΉΖµωÿÿÿÿ8‡μμ¶2J$27cba88e-df59-46b2-80b8-9d8558f8ae72
-k	java:S108-")Either remove or fill this block of code.(α’Ι8ΠαΨο¶2J$23f9e7da-9417-4c54-8493-139b0847cef2
+java:S2696"6Make the enclosing method "static" or remove this set.(Μ–άΔωÿÿÿÿ8ω†μμ¶2J$72bbb623-940b-440a-9fe4-1bf0287b13b5
+p	java:S108'")Either remove or fill this block of code.(™ΉΖµωÿÿÿÿ8‡μμ¶2J$4cf0af5c-5bb8-4749-bbc8-21d497f375b3
+k	java:S108-")Either remove or fill this block of code.(α’Ι8ΠαΨο¶2J$6db7d6ca-7e02-478a-95aa-c5732153d9b9
