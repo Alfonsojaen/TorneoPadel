@@ -1,5 +1,6 @@
 package github.alfonsojaen.model.interfaces;
 
+import github.alfonsojaen.model.entity.Player;
 import github.alfonsojaen.model.entity.Tournament;
 
 import java.sql.SQLException;
@@ -10,6 +11,8 @@ public interface InterfaceTeamDAO <T> extends DAO<T> {
     void update(T entity);
     T findByName(String name);
     List<T> findByTournament(Tournament tournament);
+    List<Player> getPlayersByTeam(int teamId);
+
 
 }
 

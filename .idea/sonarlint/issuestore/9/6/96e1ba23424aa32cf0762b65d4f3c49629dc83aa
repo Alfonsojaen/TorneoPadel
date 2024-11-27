@@ -1,16 +1,17 @@
 
 ¥
-java:S1488*"]Immediately return this expression instead of assigning it to the temporary variable "scene".(®°Ÿ‘úÿÿÿÿ8â†­É¶2J$ec45ad2e-1e9a-45e3-a8c2-2eec666cd180
+java:S14881"]Immediately return this expression instead of assigning it to the temporary variable "scene".(®°Ÿ‘úÿÿÿÿ8ä†ìì¶2J$fc126fcb-8136-4628-ae06-facd37f268e9
 ”
-java:S1104"QMake scene a static final constant or non-public and provide accessors if needed.(äõ8ã†­É¶2J$85f07c05-3a0f-42c1-8812-78449054cb3a
+java:S1104"QMake scene a static final constant or non-public and provide accessors if needed.(äõ8æ†ìì¶2J$2352f78a-6883-4c44-89dc-1dee0be81470
  
-java:S1104"XMake primaryStage a static final constant or non-public and provide accessors if needed.(¢Ñû¦ûÿÿÿÿ8ã†­É¶2J$1d1f38a6-f742-4e5b-9709-85e44891cf2c
+java:S1104"XMake primaryStage a static final constant or non-public and provide accessors if needed.(¢Ñû¦ûÿÿÿÿ8æ†ìì¶2J$c33a9ad5-5fb1-4788-8d5d-d609ee737949
 n
-java:S1444"+Make this "public static scene" field final(äõ8ä†­É¶2J$45499cff-b837-49f7-846d-80476404371e
+java:S1444"+Make this "public static scene" field final(äõ8æ†ìì¶2J$a89cb68f-57cc-4c14-a5dd-88de309288c4
 z
-java:S1444"2Make this "public static primaryStage" field final(¢Ñû¦ûÿÿÿÿ8ä†­É¶2J$85c1a79b-b8d8-4a6c-87b3-e2751f5752b1
+java:S1444"2Make this "public static primaryStage" field final(¢Ñû¦ûÿÿÿÿ8ç†ìì¶2J$677b2dfe-a74b-4130-abdd-5d7942bdf2ab
 x
-java:S2696"6Make the enclosing method "static" or remove this set.(™·G8ñ†­É¶2J$0844e34a-4738-4115-8fcd-6220b3013f1c
+java:S2696"6Make the enclosing method "static" or remove this set.(™·G8ù†ìì¶2J$4a21a1e3-f0c7-4e92-b0a4-4048cd1e038c
 ~
-java:S2696"6Make the enclosing method "static" or remove this set.(Ì–ÜÄùÿÿÿÿ8ñ†­É¶2J$d52013d4-8ac7-4176-b9d8-c0b09aa4804a
-r	java:S106&"+Replace this use of System.out by a logger.(«øİ„úÿÿÿÿ8»®É¶2J$436c39a3-d755-4c3c-9606-c560690626f9
+java:S2696"6Make the enclosing method "static" or remove this set.(Ì–ÜÄùÿÿÿÿ8ù†ìì¶2J$e739f0b0-600f-4996-a85c-0d7c973ff3cd
+p	java:S108'")Either remove or fill this block of code.(™¹Æµùÿÿÿÿ8Š‡ìì¶2J$27cba88e-df59-46b2-80b8-9d8558f8ae72
+k	java:S108-")Either remove or fill this block of code.(˜á’É8ĞáØï¶2J$23f9e7da-9417-4c54-8493-139b0847cef2

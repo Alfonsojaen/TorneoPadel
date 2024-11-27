@@ -1,13 +1,3 @@
 
 ±
-java:S1130g"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(¬ õİ8Ç•úè¶2J$bcf85076-9d65-48ca-b405-613d55c85b3f
-‹
-java:S1128"CRemove this unused import 'github.alfonsojaen.model.dao.PlayerDAO'.(ñ†áŠşÿÿÿÿ8æş€é¶2J$b92fd4e5-8a23-48d0-bd94-5373b48af44b
-‹
-java:S1128"CRemove this unused import 'github.alfonsojaen.model.entity.Player'.(÷ü ®ûÿÿÿÿ8çş€é¶2J$0441d44f-b396-4200-bc03-eb09ec548d92
-
-java:S1128"9Remove this unused import 'javafx.scene.image.ImageView'.(áÿ®Ãüÿÿÿÿ8çş€é¶2J$8569303d-a251-43db-b0c1-a2ac944e0268
-s
-java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8çş€é¶2J$c23cb7c5-0eea-4ed6-9e8d-dbb63ac89152
-s
-java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8çş€é¶2J$8b597abc-c8d5-476c-8c68-98e35b6a791b
+java:S1130b"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(¬ õİ8Ç•úè¶2J$9ab07234-eb21-48fa-bdda-934f1ee3fe9e

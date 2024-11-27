@@ -40,19 +40,19 @@ public class ControllerMenuTeam implements Initializable {
 
     @FXML
     private void switchToMenu() throws IOException {
-        Scenes.setRoot("pantallaMenu",null);
+        Scenes.setRoot("pantallaMenu",null,null);
     }
 
 
     @FXML
     private void switchToInsertTeam() throws IOException {
-        Scenes.setRoot("pantallaInsertTeam",null);
+        Scenes.setRoot("pantallaInsertTeam",null,null);
     }
 
 
     @FXML
     private void switchToDeleteTeam() throws IOException {
-        Scenes.setRoot("pantallaDeleteTeam",null);
+        Scenes.setRoot("pantallaDeleteTeam",null,null);
     }
 
 
@@ -60,7 +60,6 @@ public class ControllerMenuTeam implements Initializable {
     public void initialize(URL url, ResourceBundle resourceBundle) {
             if (UserSession.isLogged()) {
                 List<Team> teams = TeamDAO.build().findAll();
-                System.out.println(teams);
                 this.teams = FXCollections.observableArrayList(teams);
 
                 tableview.setItems(this.teams);
@@ -72,7 +71,7 @@ public class ControllerMenuTeam implements Initializable {
                         if (event.getClickCount() == 3 && (!row.isEmpty())) {
                             Team rowTeam = row.getItem();
                             try {
-                                Scenes.setRoot("pantallaAssignPlayer", rowTeam);
+                                Scenes.setRoot("pantallaAssignPlayer", rowTeam,null);
                             } catch (IOException e) {
                                 throw new RuntimeException(e);
                             }
@@ -110,10 +109,10 @@ public class ControllerMenuTeam implements Initializable {
 
                 tableview.getColumns().add(actionColumn);
 
-                id.setCellValueFactory(cuadrilla -> new SimpleStringProperty(String.valueOf(cuadrilla.getValue().getId())));
-                name.setCellValueFactory(cuadrilla -> new SimpleStringProperty(cuadrilla.getValue().getName()));
-                coach.setCellValueFactory(cuadrilla -> new SimpleStringProperty(cuadrilla.getValue().getCoach()));
-                description.setCellValueFactory(cuadrilla -> new SimpleStringProperty(cuadrilla.getValue().getDescription()));
+                id.setCellValueFactory(team -> new SimpleStringProperty(String.valueOf(team.getValue().getId())));
+                name.setCellValueFactory(team -> new SimpleStringProperty(team.getValue().getName()));
+                coach.setCellValueFactory(team -> new SimpleStringProperty(team.getValue().getCoach()));
+                description.setCellValueFactory(team -> new SimpleStringProperty(team.getValue().getDescription()));
 
                 name.setCellFactory(TextFieldTableCell.forTableColumn());
                 name.setOnEditCommit(event -> {

@@ -1,0 +1,12 @@
+
+	java:S112R"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8øøï¶2J$4adadaf2-30cb-479f-bd8c-103aebdc7bb6
+Ÿ
+java:S1488\"\Immediately return this expression instead of assigning it to the temporary variable "cell".(ùµ¯Ê8ûøï¶2J$ab8b9a5c-36a0-4f9f-a8e3-367af4c9867a
+
+java:S1450,"ZRemove the "tournaments" field and declare it as a local variable in the relevant methods.(Ï» æ8‘‘øï¶2J$6cd69227-74a5-42a1-957f-75a3b93cfeec
+š
+java:S3776B"RRefactor this method to reduce its Cognitive Complexity from 33 to the 15 allowed.(•‘İŸüÿÿÿÿ8—‘øï¶2J$106ebf47-80e1-4c37-8d94-f290a3f73b33
+‚
+java:S1117D"?Rename "tournaments" which hides the field declared at line 44.(Ê»Àº8˜‘øï¶2J$2e494413-fad2-47f7-b030-2b8db1a9a9cc
+¡
+java:S1171^"YMove the contents of this initializer to a standard constructor or to field initializers.(ÒÌâ–øÿÿÿÿ8œ‘øï¶2J$a705ba50-ccd6-434e-8a78-3e42b8af759a

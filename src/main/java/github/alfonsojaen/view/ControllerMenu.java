@@ -9,22 +9,22 @@ public class ControllerMenu {
 
     @FXML
     private void MenuTorneo() throws IOException {
-        Scenes.setRoot("pantallaMenuTournoment",null);
+        Scenes.setRoot("pantallaMenuTournament",null,null);
     }
 
     @FXML
     private void MenuEquipo() throws IOException {
-        Scenes.setRoot("pantallaMenuTeam",null);
+        Scenes.setRoot("pantallaMenuTeam",null,null);
     }
 
     @FXML
     private void MenuPlayer() throws IOException {
-        Scenes.setRoot("pantallaMenuPlayer",null);
+        Scenes.setRoot("pantallaMenuPlayer",null,null);
     }
 
     @FXML
     private void MenuLogin() throws IOException {
-        Scenes.setRoot("pantallaLoginUser",null);
+        Scenes.setRoot("pantallaLoginUser",null,null);
     }
 
 }

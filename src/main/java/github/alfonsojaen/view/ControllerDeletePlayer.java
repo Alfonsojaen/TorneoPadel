@@ -84,6 +84,6 @@ public class ControllerDeletePlayer {
 
     @FXML
     private void switchToMenu() throws IOException {
-        Scenes.setRoot("pantallaMenuPlayer",null);
+        Scenes.setRoot("pantallaMenuPlayer",null,null);
     }
 }

@@ -1,7 +1,9 @@
 package github.alfonsojaen;
 
 import github.alfonsojaen.model.entity.Team;
+import github.alfonsojaen.model.entity.Tournament;
 import github.alfonsojaen.view.ControllerAssignPlayer;
+import github.alfonsojaen.view.ControllerAssignTeam;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -29,15 +31,20 @@ public class App extends Application {
 
     }
 
-    public static Scene createScene(String fxml, double width, double height, Team team) throws IOException {
+    public static Scene createScene(String fxml, double width, double height, Team team, Tournament tournament) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(App.class.getResource("view/" + fxml + ".fxml"));
         Parent root = fxmlLoader.load();
         if(fxml.equals("pantallaAssignPlayer")){
             ControllerAssignPlayer controller=fxmlLoader.getController();
             if (controller.getClass().equals(ControllerAssignPlayer.class)) {
-                System.out.println(controller.getClass());
             }
             controller.setTeam(team);
+        }
+        if(fxml.equals("pantallaAssignTeam")){
+            ControllerAssignTeam controller=fxmlLoader.getController();
+            if (controller.getClass().equals(ControllerAssignTeam.class)) {
+            }
+            controller.setTournament(tournament);
         }
         Scene scene = new Scene(root, width, height);
         return scene;

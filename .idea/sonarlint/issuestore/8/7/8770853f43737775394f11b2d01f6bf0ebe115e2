@@ -1,0 +1,47 @@
+
+É
+java:S11865"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÉÜÉ³ùÿÿÿÿ8ğËÎê¶2J$b18a192f-eab2-4e1a-9e2a-97f101bed65a
+É
+java:S1186:"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(çá‡“úÿÿÿÿ8ğËÎê¶2J$47bc1446-27cf-4ece-9756-e80573b9db14
+É
+java:S1186I"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(æÔ«÷şÿÿÿÿ8ğËÎê¶2J$12ee358d-3228-468a-977c-50d909943b44
+
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ŠÛÙ¦ûÿÿÿÿ8˜ºĞê¶2J$ce87b3cf-74db-4f79-85e4-a189297c19a4
+
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ì³… üÿÿÿÿ8™ºĞê¶2J$8677b02b-1c57-4083-9487-0ae9c60d0d2e
+ˆ
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(¯úä­8™ºĞê¶2J$fff4c3e4-fb0e-4f35-b952-589125fdcf19
+ˆ
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(øûû8šºĞê¶2J$6df2a6da-f013-41cc-b3bf-69c01b5ed043
+
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(œ‹Î©ùÿÿÿÿ8šºĞê¶2J$2f384794-fd7f-4cb8-8b75-927309048e73
+ˆ
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(©€Ù¡8šºĞê¶2J$3ece7f72-5e98-439e-a681-d271ac181570
+ˆ
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(Ô£ûÇ8›ºĞê¶2J$97f3b92c-ef89-45d0-bb8b-50c02f290717
+ˆ
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(éÙÿÛ8›ºĞê¶2J$c285263d-2934-4da4-b224-96630afd991b
+ˆ
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ÙÍØ‡8›ºĞê¶2J$b7984eb6-126e-44ac-b777-bafff94dabd7
+r
+java:S1068"*Remove this unused "INSERT" private field.(ŠÛÙ¦ûÿÿÿÿ8¢ºĞê¶2J$bc77bdb5-395d-4266-97aa-357135c4689c
+r
+java:S1068"*Remove this unused "UPDATE" private field.(ì³… üÿÿÿÿ8£ºĞê¶2J$c67598b5-21f2-45b4-9e36-e7c7a873746d
+n
+java:S1068"+Remove this unused "FINDALL" private field.(¯úä­8£ºĞê¶2J$24610375-da4e-411d-80c0-a0a0a4e5fef7
+t
+java:S1068",Remove this unused "FINDBYID" private field.(¡ôÙ†ÿÿÿÿÿ8£ºĞê¶2J$58428210-29e1-40b1-bd12-ebcc937e85d4
+m
+java:S1068"*Remove this unused "DELETE" private field.(øûû8£ºĞê¶2J$b9a747f0-4962-4bf8-8db9-35855383fe63
+v
+java:S1068".Remove this unused "FINDBYNAME" private field.(œ‹Î©ùÿÿÿÿ8£ºĞê¶2J$f9fb84a2-8d27-458e-a9c6-cc6c4368ae69
+{
+java:S1068"8Remove this unused "FINDTEAMBYTOURNAMENT" private field.(©€Ù¡8£ºĞê¶2J$178b69a3-089e-4352-b6ea-cf6e6f2fdab3
+s
+java:S1068"0Remove this unused "INSERTPLAYER" private field.(Ô£ûÇ8¤ºĞê¶2J$10b41dd8-8f24-4a0f-ab84-06f7dc3e85b6
+s
+java:S1068"0Remove this unused "DELETEPLAYER" private field.(éÙÿÛ8¤ºĞê¶2J$7537865f-e011-414e-a2a9-24e318efe662
+p
+java:S1068"-Remove this unused "GETPLAYER" private field.(ÙÍØ‡8¤ºĞê¶2J$c97fd3b4-cac3-4627-bfec-91db72570c73
+p
+java:S1068"(Remove this unused "conn" private field.(´¤´‚ıÿÿÿÿ8ÒúĞê¶2J$65b54b0f-4e03-4154-abbf-cfbc5eacd703

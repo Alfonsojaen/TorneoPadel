@@ -113,7 +113,7 @@ public class ControllerInsertPlayer {
 
     @FXML
     private void switchToMenuPlayer() throws IOException {
-        Scenes.setRoot("pantallaMenuPlayer",null);
+        Scenes.setRoot("pantallaMenuPlayer",null,null);
     }
 
     private User obtenerUsuarioActual() {

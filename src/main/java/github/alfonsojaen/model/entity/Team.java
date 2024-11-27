@@ -10,14 +10,16 @@ public class Team {
     private String coach;
     private String description;
     private User user;
+    private boolean selected;
     private List<Tournament> tournaments;
 
-    public Team(int id, String name, String coach, String description, List<Player> players, List<Tournament> tournaments) {
+    public Team(int id, String name, String coach, String description, User user, List<Player> players, List<Tournament> tournaments) {
         this.id = id;
         this.name = name;
         this.coach = coach;
         this.description = description;
         this.user = user;
+        this.selected = false;
         this.tournaments = tournaments;
     }
 
@@ -80,7 +82,15 @@ public class Team {
         this.tournaments = tournaments;
     }
 
-    private List<Player> players = new ArrayList<>();  // Siempre se inicializa
+    public boolean isSelected() {
+        return selected;
+    }
+
+    public void setSelected(boolean selected) {
+        this.selected = selected;
+    }
+
+    private List<Player> players = new ArrayList<>();
 
     public List<Player> getPlayer() {
         return players;

@@ -38,17 +38,17 @@ public class ControllerMenuPlayer implements Initializable {
 
     @FXML
     private void switchToMenu() throws IOException {
-        Scenes.setRoot("pantallaMenu",null);
+        Scenes.setRoot("pantallaMenu",null,null);
     }
 
     @FXML
     private void switchToInsertPaso() throws IOException {
-        Scenes.setRoot("pantallaInsertPlayer",null);
+        Scenes.setRoot("pantallaInsertPlayer",null,null);
     }
 
     @FXML
     private void switchToDeletePaso() throws IOException {
-        Scenes.setRoot("pantallaDeletePlayer",null);
+        Scenes.setRoot("pantallaDeletePlayer",null,null);
     }
 
 
@@ -61,10 +61,10 @@ public class ControllerMenuPlayer implements Initializable {
             tableview.setItems(this.players);
             tableview.setEditable(true);
 
-            id.setCellValueFactory(paso -> new SimpleStringProperty(String.valueOf(paso.getValue().getId())));
-            nickname.setCellValueFactory(paso -> new SimpleStringProperty(paso.getValue().getNickname()));
-            gender.setCellValueFactory(paso -> new SimpleStringProperty(String.valueOf(paso.getValue().getGender())));
-            age.setCellValueFactory(paso -> new SimpleStringProperty(String.valueOf(paso.getValue().getAge())));
+            id.setCellValueFactory(player -> new SimpleStringProperty(String.valueOf(player.getValue().getId())));
+            nickname.setCellValueFactory(player -> new SimpleStringProperty(player.getValue().getNickname()));
+            gender.setCellValueFactory(player -> new SimpleStringProperty(String.valueOf(player.getValue().getGender())));
+            age.setCellValueFactory(player -> new SimpleStringProperty(String.valueOf(player.getValue().getAge())));
 
             nickname.setCellFactory(TextFieldTableCell.forTableColumn());
             nickname.setOnEditCommit(event -> {

@@ -48,7 +48,7 @@ public class ControllerAssignPlayer {
 
     @FXML
     private void switchToMenuCuadrilla() throws IOException {
-        Scenes.setRoot("pantallaMenuTeam",null);
+        Scenes.setRoot("pantallaMenuTeam",null,null);
     }
 
 
@@ -101,20 +101,20 @@ public class ControllerAssignPlayer {
 
     public void assing() {
         try {
-            List<Player> pasosSelected = new ArrayList<>();
+            List<Player> playerSelected = new ArrayList<>();
             for (Player player : players) {
                 if (player.isSelected()) {
-                    pasosSelected.add(player);
+                    playerSelected.add(player);
                 }
             }
 
             for (Player player : Selected) {
-                if (!pasosSelected.contains(player)) {
+                if (!playerSelected.contains(player)) {
                     team.removePlayer(player);
                 }
             }
 
-            for (Player player : pasosSelected) {
+            for (Player player : playerSelected) {
                 if (!Selected.contains(player)) {
                     team.addPlayer(player);
                 }

@@ -17,10 +17,10 @@ public class TeamDAO implements InterfaceTeamDAO<Team> {
     private final static String INSERT = "INSERT INTO Team (name, coach, description, user_username) VALUES (?,?,?,?)";
     private final static String UPDATE = "UPDATE Team SET name=?, coach=?, description=? WHERE id=? AND user_username = ?";
     private final static String FINDALL = "SELECT id, name, coach, description, user_username FROM Team  WHERE user_username = ?";
-    private static final String FINDBYID = "SELECT id, name, coach, description, user_username FROM Player WHERE id = ? AND user_username = ?";
+    private static final String FINDBYID = "SELECT id, name, coach, description, user_username FROM Team WHERE id = ? AND user_username = ?";
     private final static String DELETE= "DELETE FROM Team  WHERE name=? AND user_username = ?";
     private final static String FINDBYNAME = "SELECT id, name, coach, description, user_username FROM Team WHERE name=? AND user_username = ?";
-    private final static String FINDTEAMBYTOURNAMENT = "SELECT a.id, a.name, a.coach, a.description, a.user_username FROM Team AS a, Pertenece AS b WHERE b.teamId=a.id AND b.tournamentId=?";
+    private final static String FINDBYTOURNAMENT = "SELECT t.id, t.name, t.coach, t.description FROM Team t JOIN Pertenece p ON p.teamId = t.id WHERE p.tournamentId = ?";
     private final static String INSERTPLAYER = "INSERT INTO Esta (playerId, teamId) VALUES (?,?)";
     private final static String DELETEPLAYER = "DELETE FROM Esta WHERE teamId=?";
     private final static String GETPLAYER = "SELECT playerId FROM Esta WHERE teamId = ?";
@@ -178,7 +178,7 @@ public class TeamDAO implements InterfaceTeamDAO<Team> {
         }
         return result;
     }
-
+    @Override
     public List<Player> getPlayersByTeam(int teamId) {
         List<Player> players = new ArrayList<>();
         try (PreparedStatement pst = conn.prepareStatement(GETPLAYER)) {
@@ -204,11 +204,11 @@ public class TeamDAO implements InterfaceTeamDAO<Team> {
     @Override
     public List<Team> findByTournament(Tournament tu) {
         List<Team> result = new ArrayList<>();
-        try(PreparedStatement pst = ConnectionMariaDB.getConnection().prepareStatement(FINDTEAMBYTOURNAMENT)) {
+        try(PreparedStatement pst = ConnectionMariaDB.getConnection().prepareStatement(FINDBYTOURNAMENT)) {
             pst.setInt(1, tu.getId());
             ResultSet res = pst.executeQuery();
             while (res.next()){
-                Team c = new TeamLazy();
+                Team c = new Team();
                 c.setId(res.getInt(1));
                 c.setName(res.getString("name"));
                 c.setCoach(res.getString("coach"));

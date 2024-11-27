@@ -143,7 +143,7 @@ public class PlayerDAO implements InterfacePlayerDAO<Player> {
             pst.setInt(1, team.getId());
             ResultSet res = pst.executeQuery();
             while (res.next()){
-                Player p = new Player();//LAZY
+                Player p = new Player();
                 p.setId(res.getInt(1));
                 p.setNickname(res.getString("nickname"));
                 p.setGender(res.getString("gender"));

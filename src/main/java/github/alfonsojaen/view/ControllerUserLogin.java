@@ -57,7 +57,7 @@ public class ControllerUserLogin {
      */
     @FXML
     private void switchToUserPage() throws IOException {
-       Scenes.setRoot("pantallaMenu", null);
+       Scenes.setRoot("pantallaMenu", null, null);
     }
 
     /**
@@ -67,7 +67,7 @@ public class ControllerUserLogin {
      */
     @FXML
     private void switchToRegister() throws IOException {
-        Scenes.setRoot("pantallaRegisterUser", null);
+        Scenes.setRoot("pantallaRegisterUser", null, null);
     }
 }
 

@@ -1,8 +1,6 @@
 package github.alfonsojaen.view;
 
-import github.alfonsojaen.model.dao.PlayerDAO;
 import github.alfonsojaen.model.dao.TeamDAO;
-import github.alfonsojaen.model.entity.Player;
 import github.alfonsojaen.model.entity.Team;
 import github.alfonsojaen.model.entity.User;
 import github.alfonsojaen.utils.Utils;
@@ -11,12 +9,9 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
-import javafx.scene.image.ImageView;
 
 import java.io.IOException;
 import java.sql.SQLException;
-import java.util.ArrayList;
-import java.util.List;
 
 
 public class ControllerInsertTeam {
@@ -88,7 +83,7 @@ public class ControllerInsertTeam {
 
         User user = obtenerUsuarioActual();
 
-        Team team = new Team(0, teamNameInput, coachInput, descriptionInput, null, null);
+        Team team = new Team(0, teamNameInput, coachInput, descriptionInput, null, null,null);
         team.setUser(user);
 
         teamDAO.save(team);
@@ -110,7 +105,7 @@ public class ControllerInsertTeam {
      */
     @FXML
     private void switchToMenuTeam() throws IOException {
-        Scenes.setRoot("pantallaMenuTeam",null);
+        Scenes.setRoot("pantallaMenuTeam",null,null);
     }
 
     /**

@@ -86,6 +86,6 @@ public class ControllerDeleteTeam {
 
     @FXML
     private void switchToMenu() throws IOException {
-        Scenes.setRoot("pantallaMenuTeam",null);
+        Scenes.setRoot("pantallaMenuTeam",null,null);
     }
 }

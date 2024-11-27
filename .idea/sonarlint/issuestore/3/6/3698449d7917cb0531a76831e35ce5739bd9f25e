@@ -1,9 +1,9 @@
 
 n
-java:S1602",Remove useless curly braces around statement(×®ú08ÄÆüæ¶2J$fdd0be8f-88d9-46ba-b0e8-a1e366d35409
+java:S1602",Remove useless curly braces around statement(×®ú08ÄÆüæ¶2J$cc4509cc-6932-44d8-b828-43b7c0378ef5
 ±
-java:S1130;"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(ÙìŠÔ8ÊÆüæ¶2J$6811d591-9198-40e5-beaa-702295da2030
+java:S1130;"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(ÙìŠÔ8ÊÆüæ¶2J$bd5494e7-a79b-4e99-a1b4-dcc945dd82ab
 ‹
-java:S1128"CRemove this unused import 'github.alfonsojaen.model.dao.PlayerDAO'.(ñ†áŠþÿÿÿÿ8¶’þæ¶2J$75558d4b-a51b-4244-bfbb-8b7221138bc1
+java:S1128"CRemove this unused import 'github.alfonsojaen.model.dao.PlayerDAO'.(ñ†áŠþÿÿÿÿ8¶’þæ¶2J$f297ac23-df20-4d60-bb21-559dd4b60164
 ‹
-java:S1128"CRemove this unused import 'github.alfonsojaen.model.entity.Player'.(÷ü ®ûÿÿÿÿ8¶’þæ¶2J$4be16000-e8c9-4cf1-82d7-965efea9bedb
+java:S1128"CRemove this unused import 'github.alfonsojaen.model.entity.Player'.(÷ü ®ûÿÿÿÿ8¶’þæ¶2J$d6ad2b4a-8bbf-4f2e-ad11-d5e99f994fce

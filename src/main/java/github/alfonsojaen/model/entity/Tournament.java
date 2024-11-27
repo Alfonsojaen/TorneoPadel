@@ -12,7 +12,6 @@ public class Tournament {
     private String location;
     private String prize;
     private User user;
-    private List<Team> teams;
 
     public Tournament(int id, String name, Date startDate, Date endDate, String location, String prize, User user) {
         this.id = id;
@@ -43,16 +42,16 @@ public class Tournament {
         this.name = name;
     }
 
-    public Date getStartDate() {
-        return startDate;
+    public java.sql.Date getStartDate() {
+        return (java.sql.Date) startDate;
     }
 
     public void setStartDate(Date startDate) {
         this.startDate = startDate;
     }
 
-    public Date getEndDate() {
-        return endDate;
+    public java.sql.Date getEndDate() {
+        return (java.sql.Date) endDate;
     }
 
     public void setEndDate(Date endDate) {
@@ -83,33 +82,26 @@ public class Tournament {
         this.user = user;
     }
 
+    private List<Team> teams = new ArrayList<>();
     public List<Team> getTeams() {
         return teams;
     }
-
     public void setTeams(List<Team> teams) {
-        this.teams = teams;
-    }
-    /**
-     * Adds a team to the list if it's not already present.
-     * @param team The paso to be added.
-     */
-    public void addTeam(Team team){
-        if(teams==null){
-            teams = new ArrayList<>();
+        if (teams == null) {
+            this.teams = new ArrayList<>();
+        } else {
+            this.teams = teams;
         }
-        if(!teams.contains(team)){
+    }
+
+    public void addTeam(Team team){
+        if (!teams.contains(team)) {
             teams.add(team);
         }
     }
-    /**
-     * Removes a team from the list if it exists.
-     * @param team The paso to be removed.
-     */
+
     public void removeTeam(Team team){
-        if(teams!=null){
             teams.remove(team);
-        }
     }
 
     @Override
