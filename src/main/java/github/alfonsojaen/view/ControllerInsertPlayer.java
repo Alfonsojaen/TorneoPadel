@@ -110,6 +110,7 @@ public class ControllerInsertPlayer {
         return existingPlayer != null && existingPlayer.getId() != 0;
     }
 
+
     @FXML
     private void switchToMenuPlayer() throws IOException {
         Scenes.setRoot("pantallaMenuPlayer",null);

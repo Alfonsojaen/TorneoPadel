@@ -71,3 +71,5 @@ q
 Asrc/main/java/github/alfonsojaen/view/ControllerAssignPlayer.java,2\4\24141306119c40f0f53792420a7f5ba175a7cadf
 o
 ?src/main/java/github/alfonsojaen/view/ControllerInsertTeam.java,b\6\b6d2bffc17981d3384e56d25f39b9916241767da
+o
+?src/main/java/github/alfonsojaen/view/ControllerDeleteTeam.java,3\6\3698449d7917cb0531a76831e35ce5739bd9f25e

@@ -18,8 +18,8 @@ public class PlayerDAO implements InterfacePlayerDAO<Player> {
     private static final String INSERT = "INSERT INTO Player (nickname, gender, age, user_username) VALUES (?, ?, ?, ?)";
     private static final String UPDATE = "UPDATE Player SET nickname = ?, gender = ?, age = ? WHERE id = ? AND user_username = ?";
     private static final String DELETE = "DELETE FROM Player WHERE nickname = ? AND user_username = ?";
-    private final static String FINDBYNICKNAME = "SELECT a.id, a.nickname, a.gender, a.age, a.user_username FROM Player AS a WHERE a.nickname=?";
-    private final static String FINDBYTEAM = "SELECT a.id,a.nickname,a.gender,a.age FROM Player AS a, Esta AS b WHERE b.playerId=a.id AND b.teamId=?";
+    private final static String FINDBYNICKNAME = "SELECT id, nickname, gender, age, user_username FROM Player WHERE nickname = ? AND user_username = ?";
+    private final static String FINDBYTEAM = "SELECT p.id, p.nickname, p.gender, p.age FROM Player p JOIN Esta e ON e.playerId = p.id WHERE e.teamId = ?";
 
 
     private Connection conn;
@@ -59,8 +59,8 @@ public class PlayerDAO implements InterfacePlayerDAO<Player> {
     public Player delete(Player player) throws SQLException {
         if (player != null && UserSession.isLogged()) {
             try (PreparedStatement pst = conn.prepareStatement(DELETE)) {
-                pst.setString(1, player.getNickname()); // Nickname del jugador
-                pst.setString(2, UserSession.getUser().getUsername()); // Usuario autenticado
+                pst.setString(1, player.getNickname());
+                pst.setString(2, UserSession.getUser().getUsername());
                 int affectedRows = pst.executeUpdate();
                 if (affectedRows == 0) {
                     player = null; // No se eliminó ningún jugador
@@ -160,7 +160,7 @@ public class PlayerDAO implements InterfacePlayerDAO<Player> {
     @Override
     public Player findByNickname(String name) {
         Player result = new Player();
-        if (name != null) {
+        if (name != null && UserSession.isLogged() ){
             try (PreparedStatement pst = conn.prepareStatement(FINDBYNICKNAME)) {
                 pst.setString(1, name);  // Establece el valor del nickname en la consulta
                 pst.setString(2, UserSession.getUser().getUsername()); // Usuario autenticado

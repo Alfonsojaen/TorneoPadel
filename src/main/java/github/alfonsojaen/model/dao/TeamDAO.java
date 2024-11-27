@@ -19,7 +19,7 @@ public class TeamDAO implements InterfaceTeamDAO<Team> {
     private final static String FINDALL = "SELECT id, name, coach, description, user_username FROM Team  WHERE user_username = ?";
     private static final String FINDBYID = "SELECT id, name, coach, description, user_username FROM Player WHERE id = ? AND user_username = ?";
     private final static String DELETE= "DELETE FROM Team  WHERE name=? AND user_username = ?";
-    private final static String FINDBYNAME = "SELECT a.id, a.name, a.coach, a.description, a.user_username FROM Team AS a WHERE a.name=?";
+    private final static String FINDBYNAME = "SELECT id, name, coach, description, user_username FROM Team WHERE name=? AND user_username = ?";
     private final static String FINDTEAMBYTOURNAMENT = "SELECT a.id, a.name, a.coach, a.description, a.user_username FROM Team AS a, Pertenece AS b WHERE b.teamId=a.id AND b.tournamentId=?";
     private final static String INSERTPLAYER = "INSERT INTO Esta (playerId, teamId) VALUES (?,?)";
     private final static String DELETEPLAYER = "DELETE FROM Esta WHERE teamId=?";
@@ -160,7 +160,7 @@ public class TeamDAO implements InterfaceTeamDAO<Team> {
     @Override
     public Team findByName(String name) {
         Team result = new Team();
-        if (name != null) {
+        if (name != null && UserSession.isLogged()) {
             try (PreparedStatement pst = conn.prepareStatement(FINDBYNAME)) {
                 pst.setString(1, name);
                 pst.setString(2, UserSession.getUser().getUsername());

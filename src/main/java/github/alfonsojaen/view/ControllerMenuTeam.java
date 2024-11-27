@@ -51,8 +51,8 @@ public class ControllerMenuTeam implements Initializable {
 
 
     @FXML
-    private void switchToDeleteCuadrilla() throws IOException {
-        Scenes.setRoot("pantallaDeleteCuadrilla",null);
+    private void switchToDeleteTeam() throws IOException {
+        Scenes.setRoot("pantallaDeleteTeam",null);
     }
 
 

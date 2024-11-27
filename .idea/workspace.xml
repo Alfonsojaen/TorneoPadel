@@ -5,13 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5749be9b-69ff-4fcd-86ed-b82d607a074d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/view/ControllerDeleteTeam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/github/alfonsojaen/view/pantallaDeleteTeam.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/a/2a6d006ac45eed80b69f43d90ec0180c58e46103" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/a/2a6d006ac45eed80b69f43d90ec0180c58e46103" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/4/348bd1e037eab64d291f53d5bba4b4e76bab8ab2" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/4/348bd1e037eab64d291f53d5bba4b4e76bab8ab2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/6/96e1ba23424aa32cf0762b65d4f3c49629dc83aa" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/6/96e1ba23424aa32cf0762b65d4f3c49629dc83aa" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/6/b6d2bffc17981d3384e56d25f39b9916241767da" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/6/b6d2bffc17981d3384e56d25f39b9916241767da" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/1/c15ddb2f805c7e983199ccc39c138f0acd60deef" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/1/c15ddb2f805c7e983199ccc39c138f0acd60deef" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/d/cdd557e6f2fcac094bda3238cf2789eea47a1de7" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/d/cdd557e6f2fcac094bda3238cf2789eea47a1de7" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/9/e9e0522710eb740cf8404586ef1c32d4e594cf80" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/9/e9e0522710eb740cf8404586ef1c32d4e594cf80" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/model/dao/PlayerDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/model/dao/PlayerDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/model/dao/TeamDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/model/dao/TeamDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/view/ControllerInsertPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/view/ControllerInsertPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/view/ControllerInsertTeam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/view/ControllerInsertTeam.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/view/ControllerMenuTeam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/view/ControllerMenuTeam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/view/Scenes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/view/Scenes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/github/alfonsojaen/view/pantallaMenuTeam.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/github/alfonsojaen/view/pantallaMenuTeam.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +110,10 @@
       <workItem from="1732616113764" duration="836000" />
       <workItem from="1732622946089" duration="6014000" />
       <workItem from="1732631497779" duration="4290000" />
-      <workItem from="1732635806117" duration="7516000" />
+      <workItem from="1732635806117" duration="7945000" />
+      <workItem from="1732643798311" duration="211000" />
+      <workItem from="1732693224629" duration="142000" />
+      <workItem from="1732693447626" duration="7873000" />
     </task>
     <servers />
   </component>

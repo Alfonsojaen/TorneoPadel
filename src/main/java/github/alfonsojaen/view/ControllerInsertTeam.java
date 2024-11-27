@@ -43,13 +43,11 @@ public class ControllerInsertTeam {
         boolean isValid = true;
         StringBuilder errorMessage = new StringBuilder("Se encontraron los siguientes errores:\n");
 
-        // Validar campos obligatorios
         if (teamNameInput.isEmpty() || coachInput.isEmpty() || descriptionInput.isEmpty()) {
             errorMessage.append("- Los campos Nombre del Equipo, Entrenador y Descripción son obligatorios.\n");
             isValid = false;
         }
 
-        // Validar nombre del equipo
         if (!teamNameInput.matches("[a-zA-Z\\s]+")) {
             errorMessage.append("- El campo Nombre del Equipo solo puede contener letras y espacios.\n");
             isValid = false;
@@ -88,17 +86,12 @@ public class ControllerInsertTeam {
             return;
         }
 
-        // Obtener usuario actual
         User user = obtenerUsuarioActual();
 
-        // Crear instancia de Team
         Team team = new Team(0, teamNameInput, coachInput, descriptionInput, null, null);
         team.setUser(user);
 
-        // Guardar equipo en la base de datos
         teamDAO.save(team);
-
-        // Limpiar campos
         teamName.setText("");
         coach.setText("");
         description.setText("");
@@ -106,13 +99,9 @@ public class ControllerInsertTeam {
         Utils.ShowAlert("Equipo insertado exitosamente.");
     }
 
-    /**
-     * Verifica si ya existe un equipo con el nombre especificado.
-     * @param teamName Nombre del equipo a verificar.
-     * @return true si el equipo ya existe, false en caso contrario.
-     */
-    private boolean teamExists(String teamName) throws SQLException {
-        Team existingTeam = TeamDAO.build().findByName(teamName);
+
+    private boolean teamExists(String name) throws SQLException {
+        Team existingTeam = TeamDAO.build().findByName(name);
         return existingTeam != null && existingTeam.getId() != 0;
     }
 

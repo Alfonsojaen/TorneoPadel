@@ -1,15 +1,15 @@
 
-	java:S112M"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8åø£Ì¶2J$129975ae-0a4b-464f-8324-03c7aaaec6ba
+	java:S112M"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8åø£Ì¶2J$e197d6c0-7855-4104-a9df-1b70220508b0
 ­
-java:S1192ˆ"iDefine a constant instead of duplicating this literal "Te has pasado del lÃ­mite de caracteres!" 3 times.(×Ìß¾8çø£Ì¶2J$ffb07db6-0eb6-4e08-b16f-7bd6e2b0648d
+java:S1192ˆ"iDefine a constant instead of duplicating this literal "Te has pasado del lÃ­mite de caracteres!" 3 times.(×Ìß¾8çø£Ì¶2J$50e760ca-8637-45be-a1c6-297052d69e67
 Ÿ
-java:S1488W"\Immediately return this expression instead of assigning it to the temporary variable "cell".(ÉÙ Æ8èø£Ì¶2J$7f34040c-eadb-474d-9404-43263de8fde2
+java:S1488W"\Immediately return this expression instead of assigning it to the temporary variable "cell".(ÉÙ Æ8èø£Ì¶2J$3bf3c27c-c311-412d-b934-5ed8dbedfc31
 —
-java:S1450&"TRemove the "teams" field and declare it as a local variable in the relevant methods.(·§ÈÍ8üø£Ì¶2J$8a054a31-d1f6-470e-8f1a-79ddd48018bc
+java:S1450&"TRemove the "teams" field and declare it as a local variable in the relevant methods.(·§ÈÍ8üø£Ì¶2J$ef503829-c36f-4873-ae9d-965124b953da
 š
-java:S3776<"RRefactor this method to reduce its Cognitive Complexity from 47 to the 15 allowed.(•‘İŸüÿÿÿÿ8€ù£Ì¶2J$b2a1b2b0-5ebc-454f-89b0-4b0aa37f4eca
+java:S3776<"RRefactor this method to reduce its Cognitive Complexity from 47 to the 15 allowed.(•‘İŸüÿÿÿÿ8€ù£Ì¶2J$5243b828-90c5-4ff0-97ce-6cfd857f44f7
 |
-java:S1117>"9Rename "teams" which hides the field declared at line 38.(œÕè8‚ù£Ì¶2J$128a6358-ca1c-42bd-a15b-6f4df6c75b25
-m	java:S106?"+Replace this use of System.out by a logger.(¸Üï‰8ƒù£Ì¶2J$a9d0a564-24db-4995-a682-3cd896b60293
+java:S1117>"9Rename "teams" which hides the field declared at line 38.(œÕè8‚ù£Ì¶2J$f6777933-c41b-42f4-9dd2-1f091cf7082d
+m	java:S106?"+Replace this use of System.out by a logger.(¸Üï‰8ƒù£Ì¶2J$99f68d30-9eed-4c02-809c-f522ba5c5d9e
 ¡
-java:S1171Y"YMove the contents of this initializer to a standard constructor or to field initializers.(ÒÌâ–øÿÿÿÿ8¤ˆ¦Ì¶2J$525c1024-b4fc-4311-ab17-256d5d1cdd21
+java:S1171Y"YMove the contents of this initializer to a standard constructor or to field initializers.(ÒÌâ–øÿÿÿÿ8¤ˆ¦Ì¶2J$ab1e30c1-77d1-45fc-9405-162d2b653ed9
