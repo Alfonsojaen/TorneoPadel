@@ -16,7 +16,6 @@ import java.sql.SQLException;
 
 
 public class ControllerInsertTournament {
-
     @FXML
     private TextField tournamentName;
 
@@ -27,7 +26,7 @@ public class ControllerInsertTournament {
     private DatePicker endDate;
 
     @FXML
-    private TextField location;
+    private TextField locationField;
 
     @FXML
     private TextField prize;
@@ -41,7 +40,7 @@ public class ControllerInsertTournament {
         String tournamentNameInput = tournamentName.getText().trim();
         Date startDateInput = Date.valueOf(startDate.getValue());
         Date endDateInput = Date.valueOf(endDate.getValue());
-        String locationInput = location.getText().trim();
+        String locationInput = locationField.getText().trim();
         String prizeInput = prize.getText().trim();
 
         boolean isValid = true;
@@ -94,12 +93,13 @@ public class ControllerInsertTournament {
         User user = obtenerUsuarioActual();
 
         Tournament tournament = new Tournament(0, tournamentNameInput, startDateInput, endDateInput, locationInput, prizeInput, user);
+        tournament.setUser(user);
 
         tournamentDAO.save(tournament);
         tournamentName.setText("");
         startDate.setValue(null);
         endDate.setValue(null);
-        location.setText("");
+        locationField.setText("");
         prize.setText("");
 
         Utils.ShowAlert("Torneo insertado exitosamente.");
@@ -125,4 +125,5 @@ public class ControllerInsertTournament {
     private User obtenerUsuarioActual() {
         return new User();
     }
+
 }

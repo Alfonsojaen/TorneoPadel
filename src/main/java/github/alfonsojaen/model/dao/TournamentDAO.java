@@ -13,7 +13,7 @@ import java.util.List;
 
 public class TournamentDAO implements InterfaceTournamentDAO<Tournament> {
 
-    private final static String INSERT = "INSERT INTO Tournament (name, start_date, end_date, location, prize,user_username) VALUES (?, ?, ?, ?, ?, ?);";
+    private final static String INSERT = "INSERT INTO Tournament (name, start_date, end_date, location, prize,user_username) VALUES (?,?, ?, ?, ?,?);";
     private final static String UPDATE = "UPDATE Tournament SET name = ?, start_date = ?, end_date = ?, location = ?, prize = ? WHERE id = ? AND user_username = ?";
     private final static String FINDALL = "SELECT id, name, start_date, end_date, location, prize, user_username FROM Tournament WHERE user_username = ?";
     private static final String FINDBYID = "SELECT id, name, start_date, end_date, location, prize, user_username FROM Tournament WHERE id = ? AND user_username = ?";
@@ -42,7 +42,7 @@ public class TournamentDAO implements InterfaceTournamentDAO<Tournament> {
                     pst.setDate(3, tournament.getEndDate());
                     pst.setString(4, tournament.getLocation());
                     pst.setString(5, tournament.getPrize());
-                    pst.setString(8, UserSession.getUser().getUsername());
+                    pst.setString(6, UserSession.getUser().getUsername());
                     pst.executeUpdate();
                     ResultSet rs = pst.getGeneratedKeys();
                     if (rs.next()) {

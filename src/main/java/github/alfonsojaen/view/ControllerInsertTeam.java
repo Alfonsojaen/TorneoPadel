@@ -75,7 +75,6 @@ public class ControllerInsertTeam {
             isValid = false;
         }
 
-        // Si hay errores, mostrar alerta
         if (!isValid) {
             Utils.ShowAlert(errorMessage.toString());
             return;

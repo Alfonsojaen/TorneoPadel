@@ -1,12 +1,16 @@
 
-	java:S112R"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8øøï¶2J$4adadaf2-30cb-479f-bd8c-103aebdc7bb6
+	java:S112T"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8øøï¶2J$afb1e12c-da04-461f-9097-9f110a447981
+q
+java:S1604–"(Make this anonymous inner class a lambda(Í€¾±úÿÿÿÿ8¾ú˜ö¶2J$b0e353c7-3beb-49fd-a2e7-5ea024f33b46
+l
+java:S1604Ü"(Make this anonymous inner class a lambda(±Ğœ…8¾ú˜ö¶2J$535c3c35-daee-446e-8027-7c63f651e2de
 Ÿ
-java:S1488\"\Immediately return this expression instead of assigning it to the temporary variable "cell".(ùµ¯Ê8ûøï¶2J$ab8b9a5c-36a0-4f9f-a8e3-367af4c9867a
+java:S1488^"\Immediately return this expression instead of assigning it to the temporary variable "cell".(ùµ¯Ê8ûøï¶2J$7d1bd69b-2812-48fb-9fc7-e6a24ba235c5
 
-java:S1450,"ZRemove the "tournaments" field and declare it as a local variable in the relevant methods.(Ï» æ8‘‘øï¶2J$6cd69227-74a5-42a1-957f-75a3b93cfeec
+java:S1450."ZRemove the "tournaments" field and declare it as a local variable in the relevant methods.(Ï» æ8Ù¸ºõ¶2J$1d640bfc-8d81-411b-b1ef-344816816d32
 š
-java:S3776B"RRefactor this method to reduce its Cognitive Complexity from 33 to the 15 allowed.(•‘İŸüÿÿÿÿ8—‘øï¶2J$106ebf47-80e1-4c37-8d94-f290a3f73b33
+java:S3776D"RRefactor this method to reduce its Cognitive Complexity from 89 to the 15 allowed.(•‘İŸüÿÿÿÿ8ß¸ºõ¶2J$ca0f3a6d-3263-495f-b2b7-817b4ec71d59
 ‚
-java:S1117D"?Rename "tournaments" which hides the field declared at line 44.(Ê»Àº8˜‘øï¶2J$2e494413-fad2-47f7-b030-2b8db1a9a9cc
+java:S1117F"?Rename "tournaments" which hides the field declared at line 46.(Ê»Àº8à¸ºõ¶2J$c413bcd5-0eac-4c1b-ad94-3a801230b02e
 ¡
-java:S1171^"YMove the contents of this initializer to a standard constructor or to field initializers.(ÒÌâ–øÿÿÿÿ8œ‘øï¶2J$a705ba50-ccd6-434e-8a78-3e42b8af759a
+java:S1171a"YMove the contents of this initializer to a standard constructor or to field initializers.(ÒÌâ–øÿÿÿÿ8ä¸ºõ¶2J$74536ccf-9813-4f48-8a63-9ad6a2b28ad4

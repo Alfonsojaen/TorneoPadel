@@ -236,14 +236,5 @@ public class TeamDAO implements InterfaceTeamDAO<Team> {
     public static TeamDAO build(){
         return new TeamDAO();
     }
-    class TeamLazy extends Team {
-        @Override
-        public List<Player> getPlayer() {
-            if (super.getPlayer() == null) {
-                setPlayer(PlayerDAO.build().findByTeam(this));
-            }
-            return super.getPlayer();
-        }
 
-    }
 }
