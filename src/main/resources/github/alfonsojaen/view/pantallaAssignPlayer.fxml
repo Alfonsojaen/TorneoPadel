@@ -20,21 +20,16 @@
             <TableColumn fx:id="selectionColumn" prefWidth="78.4000244140625" text="Seleccionar" />
         </columns>
       </TableView>
-      <Text layoutX="201.0" layoutY="70.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ASIGNAR PASO">
+      <Text layoutX="147.0" layoutY="70.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ASIGNAR JUGADOR">
          <font>
             <Font name="Calibri Bold Italic" size="40.0" />
          </font>
       </Text>
-      <ImageView fitHeight="20.0" fitWidth="24.0" layoutX="14.0" layoutY="14.0" onMouseClicked="#switchToMenuCuadrilla" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="20.0" fitWidth="24.0" layoutX="14.0" layoutY="14.0" onMouseClicked="#switchToMenuTeam" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../../icons/LetsIconsBack.png" />
          </image>
       </ImageView>
-      <Text layoutX="41.0" layoutY="89.0" strokeType="OUTSIDE" strokeWidth="0.0" text="LAS CUADRILLAS">
-         <font>
-            <Font name="System Bold" size="10.0" />
-         </font>
-      </Text>
-      <Button layoutX="261.0" layoutY="326.0" mnemonicParsing="false" onAction="#assing" style="-fx-background-color: purple;" text="AÑADIR" textFill="WHITE" />
+      <Button layoutX="246.0" layoutY="326.0" mnemonicParsing="false" onAction="#assing" style="-fx-background-color: purple;" text="GUARDAR CAMBIOS" textFill="WHITE" />
    </children>
 </AnchorPane>

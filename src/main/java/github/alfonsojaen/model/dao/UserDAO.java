@@ -18,6 +18,7 @@ public class UserDAO implements InterfaceUserDAO<User> {
     private final static String DELETE = "DELETE FROM user WHERE username=?";
     private final static String FINDBYUSERNAME = "SELECT a.username,a.password,a.email,a.name FROM user AS a WHERE a.username=?";
     private final static String QUERY = "SELECT username FROM user WHERE email=? AND password=?";
+    private final static String FINDBYEMAIL = "SELECT a.username,a.password,a.email,a.name FROM user AS a WHERE a.email=?";
 
     private Connection conn;
 
@@ -122,7 +123,25 @@ public class UserDAO implements InterfaceUserDAO<User> {
             return result;
         }
 
+    public User findbyEmail(String email) throws SQLException {
+        User result = null;
+        if (email != null) {
+            try (PreparedStatement pst = ConnectionMariaDB.getConnection().prepareStatement(FINDBYEMAIL)) {
+                pst.setString(1, email);
+                ResultSet res = pst.executeQuery();
+                if (res.next()) {
+                    result = new User();
+                    result.setEmail(res.getString("email"));
+                    result.setName(res.getString("name"));
+                }
+                res.close();
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
+        }
 
+        return result;
+    }
     /**
      * Verifies the login credentials of a user.
      * @param email The user's email.

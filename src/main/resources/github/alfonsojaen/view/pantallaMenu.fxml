@@ -15,28 +15,28 @@
             <Button layoutX="57.0" layoutY="187.0" mnemonicParsing="false" onAction="#MenuTorneo" prefHeight="26.0" prefWidth="118.0" style="-fx-background-color: PURPLE;" text="MENU TORNEO" textFill="WHITE" />
             <Button layoutX="57.0" layoutY="249.0" mnemonicParsing="false" onAction="#MenuEquipo" prefHeight="26.0" prefWidth="118.0" style="-fx-background-color: PURPLE;" text="MENU EQUIPO" textFill="WHITE" />
             <Button layoutX="57.0" layoutY="306.0" mnemonicParsing="false" onAction="#MenuPlayer" prefHeight="26.0" prefWidth="118.0" style="-fx-background-color: PURPLE;" text="MENU JUGADOR" textFill="WHITE" />
-            <Text layoutX="68.0" layoutY="120.0" strokeType="OUTSIDE" strokeWidth="0.0" text="LAS CUADRILLAS">
-               <font>
-                  <Font name="System Bold Italic" size="12.0" />
-               </font>
-            </Text>
             <ImageView fitHeight="26.0" fitWidth="43.0" layoutX="14.0" layoutY="9.0" onMouseClicked="#MenuLogin" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../../../icons/LetsIconsBack.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="102.0" fitWidth="128.0" layoutX="52.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../icons/LogoPadel.png" />
                </image>
             </ImageView>
          </children>
       </AnchorPane>
       <AnchorPane prefHeight="400.0" prefWidth="410.0" style="-fx-background-color: BLACK;">
          <children>
-            <Text fill="WHITE" layoutX="118.0" layoutY="71.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MENU">
+            <Text fill="WHITE" layoutX="108.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MENU">
                <font>
                   <Font name="Cambria Bold Italic" size="60.0" />
                </font>
             </Text>
-            <ImageView fitHeight="248.0" fitWidth="306.0" layoutX="56.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="269.0" fitWidth="397.0" layoutY="107.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../icons/menu.jpg" />
+                  <Image url="@../../../icons/FotoMenu.jpg" />
                </image>
             </ImageView>
          </children>

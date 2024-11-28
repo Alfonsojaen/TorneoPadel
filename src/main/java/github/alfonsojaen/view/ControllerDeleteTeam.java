@@ -1,8 +1,6 @@
 package github.alfonsojaen.view;
 
-import github.alfonsojaen.model.dao.PlayerDAO;
 import github.alfonsojaen.model.dao.TeamDAO;
-import github.alfonsojaen.model.entity.Player;
 import github.alfonsojaen.model.entity.Team;
 import github.alfonsojaen.utils.Utils;
 import javafx.event.ActionEvent;
@@ -85,7 +83,7 @@ public class ControllerDeleteTeam {
     }
 
     @FXML
-    private void switchToMenu() throws IOException {
+    private void switchToMenuTeam() throws IOException {
         Scenes.setRoot("pantallaMenuTeam",null,null);
     }
 }

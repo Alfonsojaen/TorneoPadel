@@ -1,10 +1,10 @@
 
 p
-java:S5411F"(Use a primitive boolean expression here.(¬‰‘™şÿÿÿÿ8°ï¾É¶2J$88c311a6-c840-4295-9739-1223c8e89287
+java:S5411F"(Use a primitive boolean expression here.(¬‰‘™şÿÿÿÿ8°ï¾É¶2J$e82c1e95-fa0b-40b5-bd7d-efb44d4ca200
 
-java:S2095S"GUse try-with-resources or close this "PlayerDAO" in a "finally" clause.(’í•“ûÿÿÿÿ8Œğ¾É¶2J$8def8713-e70b-4c3f-9a6c-b330976f1af3
-š	java:S116"SRename this field "Selected" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹ŞÂñùÿÿÿÿ8ğ¾É¶2J$1786e4fc-5b4a-4d98-97a6-ab6d41dc421a
+java:S2095S"GUse try-with-resources or close this "PlayerDAO" in a "finally" clause.(’í•“ûÿÿÿÿ8Œğ¾É¶2J$2f3ea5a6-d509-4651-9f9b-f90ed6512050
+š	java:S116"SRename this field "Selected" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹ŞÂñùÿÿÿÿ8ğ¾É¶2J$5af276a8-a071-45ce-ab09-b06bf70c4150
 œ
-java:S1845"TRename field "Selected" to prevent any misunderstanding/clash with field "selected".(¹ŞÂñùÿÿÿÿ8ğ¾É¶2J$fbe54536-fbfb-4763-8f54-93dcd75826a4
+java:S1845"TRename field "Selected" to prevent any misunderstanding/clash with field "selected".(¹ŞÂñùÿÿÿÿ8ğ¾É¶2J$645f27e3-d0c0-454b-bec2-d932f820873f
 Š
-java:S1126V"BReplace this if-then-else statement by a single method invocation.(¡¡š™úÿÿÿÿ8™ğ¾É¶2J$6701a7d7-9ff2-4bf2-989f-c29cd8ffb1a1
+java:S1126V"BReplace this if-then-else statement by a single method invocation.(¡¡š™úÿÿÿÿ8™ğ¾É¶2J$7e5fe7d4-57db-44ab-8637-98cc405b79c3

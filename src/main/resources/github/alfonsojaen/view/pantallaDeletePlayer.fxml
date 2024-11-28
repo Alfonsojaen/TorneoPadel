@@ -13,17 +13,12 @@
    <children>
       <AnchorPane prefHeight="400.0" prefWidth="257.0" style="-fx-background-color: WHITE;">
          <children>
-            <Text layoutX="68.0" layoutY="120.0" strokeType="OUTSIDE" strokeWidth="0.0" text="LAS CUADRILLAS">
-               <font>
-                  <Font name="System Bold Italic" size="12.0" />
-               </font>
-            </Text>
-            <ImageView fitHeight="26.0" fitWidth="43.0" layoutX="14.0" layoutY="9.0" onMouseClicked="#switchToMenu" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="26.0" fitWidth="43.0" layoutX="14.0" layoutY="9.0" onMouseClicked="#switchToMenuPlayer" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../../../icons/LetsIconsBack.png" />
                </image>
             </ImageView>
-            <Text layoutX="14.0" layoutY="205.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hermandad" wrappingWidth="68.79999999999995">
+            <Text layoutX="86.0" layoutY="141.0" strokeType="OUTSIDE" strokeWidth="0.0" text="JUGADOR" wrappingWidth="60.799999999999955">
                <font>
                   <Font name="System Bold" size="12.0" />
                </font>
@@ -31,22 +26,26 @@
             <Button fx:id="deleteButton" layoutX="82.0" layoutY="351.0" mnemonicParsing="false" onAction="#handleDeletePlayer" style="-fx-background-color: PURPLE;" text="ELIMINAR" textFill="WHITE" />
             <Text layoutX="23.0" layoutY="319.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Una vez pulsado en elimiar, no se puede restaurar." textAlignment="CENTER" wrappingWidth="168.4109344482422" />
             <Text fill="RED" layoutX="86.0" layoutY="302.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CUIDADO" />
-            <ComboBox fx:id="playerComboBox" layoutX="48.0" layoutY="157.0" prefWidth="150.0" />
+            <ComboBox fx:id="playerComboBox" layoutX="37.0" layoutY="159.0" prefWidth="150.0" />
+            <ImageView fitHeight="64.0" fitWidth="89.0" layoutX="71.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../icons/LogoPadel.png" />
+               </image>
+            </ImageView>
          </children>
       </AnchorPane>
       <AnchorPane prefHeight="400.0" prefWidth="410.0" style="-fx-background-color: BLACK;">
          <children>
-            <Text fill="WHITE" layoutX="79.0" layoutY="72.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ELIMINAR PASO" wrappingWidth="238.65625">
+            <Text fill="WHITE" layoutX="47.0" layoutY="79.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ELIMINAR JUGADOR" wrappingWidth="301.856201171875">
                <font>
                   <Font name="Cambria Bold Italic" size="33.0" />
                </font>
             </Text>
-            <ImageView fitHeight="248.0" fitWidth="258.0" layoutX="69.0" layoutY="100.0" pickOnBounds="true">
+            <ImageView fitHeight="248.0" fitWidth="258.0" layoutX="59.0" layoutY="107.0" pickOnBounds="true">
                <image>
-                  <Image url="@../../../icons/FotoMenuCostalero.jpeg" />
+                  <Image url="@../../../icons/Jugador.jpg" />
                </image>
             </ImageView>
-            <Text fill="WHITE" layoutX="111.0" layoutY="369.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SEMANA SANTA ENTRE AMIGOS" />
          </children>
       </AnchorPane>
    </children>

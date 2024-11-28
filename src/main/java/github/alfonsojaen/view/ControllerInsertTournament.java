@@ -67,27 +67,23 @@ public class ControllerInsertTournament {
                 isValid = false;
             }
 
-            // Validar ubicación
             if (locationInput.length() > 100) {
                 errorMessage.append("- El campo Ubicación no puede tener más de 100 caracteres.\n");
                 isValid = false;
             }
 
-            // Validar premio
             if (prizeInput.length() > 50) {
                 errorMessage.append("- El campo Premio no puede tener más de 50 caracteres.\n");
                 isValid = false;
             }
 
-            // Validación de las fechas
             if (startDateValue != null && endDateValue != null) {
                 if (startDateValue.isAfter(endDateValue)) {
                     errorMessage.append("- La Fecha de Inicio no puede ser posterior a la Fecha de Fin.\n");
                     isValid = false;
                 }
 
-                // Validación de la fecha de inicio (no puede ser anterior a la fecha actual)
-                LocalDate currentDate = LocalDate.now();  // Obtiene la fecha actual
+                LocalDate currentDate = LocalDate.now();
                 if (startDateValue.isBefore(currentDate)) {
                     errorMessage.append("- La Fecha de Inicio no puede ser anterior a la fecha actual.\n");
                     isValid = false;
@@ -97,31 +93,27 @@ public class ControllerInsertTournament {
                 isValid = false;
             }
 
-            // Si hay errores, mostrar alerta
             if (!isValid) {
                 Utils.ShowAlert(errorMessage.toString());
                 return;
             }
 
-            // Convertir las fechas de LocalDate a java.sql.Date si no son nulas
             java.sql.Date startSqlDate = null;
             java.sql.Date endSqlDate = null;
 
             if (startDateValue != null) {
-                startSqlDate = java.sql.Date.valueOf(startDateValue);  // Convertir a java.sql.Date
+                startSqlDate = java.sql.Date.valueOf(startDateValue);
             }
             if (endDateValue != null) {
-                endSqlDate = java.sql.Date.valueOf(endDateValue);  // Convertir a java.sql.Date
+                endSqlDate = java.sql.Date.valueOf(endDateValue);
             }
 
-            // Crear el torneo
             User user = obtenerUsuarioActual();
             Tournament tournament = new Tournament(0, tournamentNameInput, startSqlDate, endSqlDate, locationInput, prizeInput, user);
             tournament.setUser(user);
 
             tournamentDAO.save(tournament);
 
-            // Limpiar los campos después de la inserción
             tournamentName.setText("");
             startDate.setValue(null);
             endDate.setValue(null);

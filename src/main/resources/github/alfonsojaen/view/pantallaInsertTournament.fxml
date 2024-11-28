@@ -14,57 +14,61 @@
    <children>
       <AnchorPane prefHeight="400.0" prefWidth="257.0" style="-fx-background-color: WHITE;">
          <children>
-            <Text layoutX="63.0" layoutY="79.0" strokeType="OUTSIDE" strokeWidth="0.0" text="LAS CUADRILLAS">
-               <font>
-                  <Font name="System Bold Italic" size="12.0" />
-               </font>
-            </Text>
+            <ImageView fitHeight="64.0" fitWidth="89.0" layoutX="74.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../icons/LogoPadel.png" />
+               </image>
+            </ImageView>
             <ImageView fitHeight="26.0" fitWidth="43.0" layoutX="14.0" layoutY="9.0" onMouseClicked="#switchToMenuTournament" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../../../icons/LetsIconsBack.png" />
                </image>
             </ImageView>
-            <TextField fx:id="tournamentName" layoutX="120.0" layoutY="100.0" prefHeight="26.0" prefWidth="115.0" />
-            <Text layoutX="21.0" layoutY="118.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NOMBRE" wrappingWidth="83.21052551269531">
+            <TextField fx:id="tournamentName" layoutX="96.0" layoutY="100.0" prefHeight="26.0" prefWidth="115.0" />
+            <Text layoutX="21.0" layoutY="118.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NOMBRE" wrappingWidth="52.0">
                <font>
                   <Font name="System Bold" size="12.0" />
                </font>
             </Text>
-            <Text layoutX="13.0" layoutY="160.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FECHA INICIO" wrappingWidth="83.21052551269531">
+            <Text layoutX="6.0" layoutY="160.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FECHA INICIO" wrappingWidth="84.662109375">
                <font>
                   <Font name="System Bold" size="12.0" />
                </font>
             </Text>
-            <Text layoutX="6.0" layoutY="252.0" strokeType="OUTSIDE" strokeWidth="0.0" text="LOCALIZACIÓN" wrappingWidth="96.755859375">
+            <Text layoutX="3.0" layoutY="251.0" strokeType="OUTSIDE" strokeWidth="0.0" text="LOCALIZACIÓN" wrappingWidth="91.15582275390625">
                <font>
                   <Font name="System Bold" size="12.0" />
                </font>
             </Text>
-            <DatePicker fx:id="startDate" layoutX="103.0" layoutY="142.0" prefHeight="26.0" prefWidth="150.0" />
-            <Text layoutX="23.0" layoutY="205.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FECHA FIN" wrappingWidth="62.41047668457031">
+            <DatePicker fx:id="startDate" layoutX="96.0" layoutY="142.0" prefHeight="26.0" prefWidth="115.0" />
+            <Text layoutX="15.0" layoutY="204.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FECHA FIN" textAlignment="CENTER" wrappingWidth="63.1558837890625">
                <font>
                   <Font name="System Bold" size="12.0" />
                </font>
             </Text>
-            <DatePicker fx:id="endDate" layoutX="103.0" layoutY="187.0" prefHeight="26.0" prefWidth="150.0" />
-            <TextField fx:id="prize" layoutX="120.0" layoutY="279.0" prefHeight="26.0" prefWidth="115.0" />
-            <Text layoutX="33.0" layoutY="297.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PRECIO" wrappingWidth="43.1558837890625">
+            <DatePicker fx:id="endDate" layoutX="96.0" layoutY="186.0" prefHeight="26.0" prefWidth="115.0" />
+            <TextField fx:id="prize" layoutX="96.0" layoutY="279.0" prefHeight="26.0" prefWidth="115.0" />
+            <Text layoutX="25.0" layoutY="297.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PRECIO" wrappingWidth="43.1558837890625">
                <font>
                   <Font name="System Bold" size="12.0" />
                </font>
             </Text>
-            <TextField fx:id="locationField" layoutX="120.0" layoutY="242.0" prefHeight="26.0" prefWidth="115.0" />
-            <Button fx:id="botonInsertar" layoutX="102.0" layoutY="333.0" mnemonicParsing="false" onAction="#handleInsertarTournament" style="-fx-background-color: PURPLE;" text="CREAR" textFill="WHITE" />
+            <TextField fx:id="locationField" layoutX="96.0" layoutY="233.0" prefHeight="26.0" prefWidth="115.0" />
+            <Button fx:id="botonInsertar" layoutX="85.0" layoutY="338.0" mnemonicParsing="false" onAction="#handleInsertarTournament" style="-fx-background-color: PURPLE;" text="AÑADIR" textFill="WHITE" />
          </children>
       </AnchorPane>
-      <AnchorPane prefHeight="400.0" prefWidth="344.0" style="-fx-background-color: BLACK;">
+      <AnchorPane prefHeight="400.0" prefWidth="398.0" style="-fx-background-color: BLACK;">
          <children>
-            <Text fill="WHITE" layoutX="54.0" layoutY="74.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CREAR EQUIPO">
+            <Text fill="WHITE" layoutX="60.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="AÑADIR TORNEO">
                <font>
-                  <Font name="Cambria Bold Italic" size="40.0" />
+                  <Font name="Cambria Bold Italic" size="33.0" />
                </font>
             </Text>
-            <Text fill="WHITE" layoutX="155.0" layoutY="375.0" strokeType="OUTSIDE" strokeWidth="0.0" text="LA BORRIQUITA" />
+            <ImageView fitHeight="248.0" fitWidth="350.0" layoutX="11.0" layoutY="86.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../../../icons/Torneo.jpeg" />
+               </image>
+            </ImageView>
          </children>
       </AnchorPane>
    </children>

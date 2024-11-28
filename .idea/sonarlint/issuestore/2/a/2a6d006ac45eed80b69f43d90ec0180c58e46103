@@ -1,14 +1,14 @@
 
-	java:S112L"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8åø£Ì¶2J$2058ae1f-78b5-46b1-98d9-49fe652b60c1
+	java:S112L"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8åø£Ì¶2J$c7566bb7-804c-447d-927a-6991ce13df93
 ­
-java:S1192‡"iDefine a constant instead of duplicating this literal "Te has pasado del lÃ­mite de caracteres!" 3 times.(×Ìß¾8çø£Ì¶2J$420332eb-ff9a-4039-a4e6-a3523e7e918d
+java:S1192‡"iDefine a constant instead of duplicating this literal "Te has pasado del lÃ­mite de caracteres!" 3 times.(×Ìß¾8çø£Ì¶2J$27996688-5d55-461b-ac33-1b9eb4984c9b
 Ÿ
-java:S1488V"\Immediately return this expression instead of assigning it to the temporary variable "cell".(ÉÙ Æ8èø£Ì¶2J$d40e31f1-960a-4609-97a9-ae74c87959be
+java:S1488V"\Immediately return this expression instead of assigning it to the temporary variable "cell".(ÉÙ Æ8èø£Ì¶2J$53ba29d9-7650-48c5-8d2d-bcfeaecf13c8
 —
-java:S1450&"TRemove the "teams" field and declare it as a local variable in the relevant methods.(·§ÈÍ8üø£Ì¶2J$18b291cc-c7bd-4d86-8dc5-0421752cf75b
+java:S1450&"TRemove the "teams" field and declare it as a local variable in the relevant methods.(·§ÈÍ8üø£Ì¶2J$aeb6c25d-6164-4648-9bee-03305835c187
 š
-java:S3776<"RRefactor this method to reduce its Cognitive Complexity from 47 to the 15 allowed.(•‘İŸüÿÿÿÿ8€ù£Ì¶2J$9d09c3e1-f40a-4bf5-8deb-26fffa620d34
+java:S3776<"RRefactor this method to reduce its Cognitive Complexity from 47 to the 15 allowed.(•‘İŸüÿÿÿÿ8€ù£Ì¶2J$2023ede7-d9bb-4c48-a26c-83ff0dd05601
 |
-java:S1117>"9Rename "teams" which hides the field declared at line 38.(œÕè8‚ù£Ì¶2J$6eba2410-a6d5-4c52-b0a9-23a2f73c2dc0
+java:S1117>"9Rename "teams" which hides the field declared at line 38.(œÕè8‚ù£Ì¶2J$1b30c7db-ecfe-4213-9091-77694b46329b
 ¡
-java:S1171X"YMove the contents of this initializer to a standard constructor or to field initializers.(ÒÌâ–øÿÿÿÿ8¤ˆ¦Ì¶2J$93c26d70-da42-45ce-80e7-3ad1bd52469d
+java:S1171X"YMove the contents of this initializer to a standard constructor or to field initializers.(ÒÌâ–øÿÿÿÿ8¤ˆ¦Ì¶2J$48a2c82c-5e29-422d-8599-92452c30e474

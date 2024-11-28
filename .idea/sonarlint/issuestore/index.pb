@@ -85,3 +85,5 @@ u
 Esrc/main/java/github/alfonsojaen/view/ControllerInsertTournament.java,d\a\da3e8762291fd1da9819a1f3cc5c957899f6a9e9
 u
 Esrc/main/java/github/alfonsojaen/view/ControllerDeleteTournament.java,c\3\c375c4d328edaf5347b5a2ecae3c36e13dafdbe2
+u
+Esrc/main/java/github/alfonsojaen/test/UserDaoTest/DeleteUserTest.java,a\2\a233e492f8ee0844ef7911660ca55092aff44c0e

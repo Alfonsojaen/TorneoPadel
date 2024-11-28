@@ -1,10 +1,10 @@
 
 p
-java:S5411F"(Use a primitive boolean expression here.(¬‰‘™şÿÿÿÿ8““âñ¶2J$94ecb6e9-609a-4d12-8f7e-29411ed66547
-g
-java:S2095S"EUse try-with-resources or close this "TeamDAO" in a "finally" clause.(ÿş›ƒùÿÿÿÿ8½¦âñ¶2
-š	java:S116"SRename this field "Selected" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆëñÏıÿÿÿÿ8éÙÅñ¶2J$c08ee7dc-28be-49d1-9516-40f02fb25cb6
+java:S5411F"(Use a primitive boolean expression here.(¬‰‘™şÿÿÿÿ8““âñ¶2J$be7208a8-1323-4be4-b9a3-5f529e9048d6
+
+java:S2095S"EUse try-with-resources or close this "TeamDAO" in a "finally" clause.(ÿş›ƒùÿÿÿÿ8½¦âñ¶2J$88bba167-0904-4674-b49f-67e54bbef040
+š	java:S116"SRename this field "Selected" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆëñÏıÿÿÿÿ8éÙÅñ¶2J$9c1b19e8-d716-4a41-acd1-0af23ecf763d
 œ
-java:S1845"TRename field "Selected" to prevent any misunderstanding/clash with field "selected".(ˆëñÏıÿÿÿÿ8êÙÅñ¶2J$9b1e807b-1faf-478d-873f-9ce1c37f9f18
-_
-java:S1126V"BReplace this if-then-else statement by a single method invocation.(÷ƒóÉ8È¦âñ¶2
+java:S1845"TRename field "Selected" to prevent any misunderstanding/clash with field "selected".(ˆëñÏıÿÿÿÿ8êÙÅñ¶2J$d9360075-a439-4f40-8558-2739502020d7
+…
+java:S1126V"BReplace this if-then-else statement by a single method invocation.(÷ƒóÉ8È¦âñ¶2J$560eb606-2e8c-4920-a1bd-b51483fbe10b

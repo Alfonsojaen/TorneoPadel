@@ -39,15 +39,22 @@ public class ControllerUserRegister {
         String password = tpassword.getText();
         password = Utils.encryptSHA256(password);
 
-        if (username.isEmpty() || password.isEmpty() || gmail.isEmpty() || name.isEmpty()) {
+        String emailRegex = "^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$";
 
+        if (username.isEmpty() || password.isEmpty() || gmail.isEmpty() || name.isEmpty()) {
             Utils.Alert("Error", "Campos vacíos", "Por favor, complete todos los campos.", Alert.AlertType.ERROR);
-        }else {
+        } else if (!gmail.matches(emailRegex)) {
+            // Validación del formato del correo electrónico.
+            Utils.Alert("Error", "Formato de email inválido", "Por favor, ingrese un email válido (ejemplo: usuario@dominio.com).", Alert.AlertType.ERROR);
+        } else {
             try {
                 if (userDAO.findByUserName(username) != null) {
                     Utils.Alert("Error", "USUARIO existente", "El USUARIO ya está en uso.\nPor favor, elija otro.", Alert.AlertType.ERROR);
-                } else {
 
+                } else if
+                        (userDAO.findbyEmail(gmail) != null) {
+                    Utils.Alert("Error", "EMAIL existente", "El EMAIL ya está en uso.\nPor favor, elija otro.", Alert.AlertType.ERROR);
+                } else {
                     User user = new User(username, password, gmail, name);
                     userDAO.save(user);
 

@@ -32,7 +32,6 @@ public class PlayerDAO implements InterfacePlayerDAO<Player> {
     @Override
     public Player save(Player player) throws SQLException {
         if (player != null && UserSession.isLogged()) {
-            System.out.println("Usuario autenticado: " + UserSession.getUser());  // Verificar si la sesión está activa
             Player existing = findById(player.getId());
             if (existing.getId() == 0) {
                 // INSERT

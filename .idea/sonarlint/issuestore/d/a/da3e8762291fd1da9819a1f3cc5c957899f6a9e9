@@ -1,7 +1,7 @@
 
 •
-java:S3776'"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(÷›Üè8„€Îø¶2J$cdcc4162-bd95-444e-8471-f037aaed4789
-·
-java:S1130‡"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(…ì †ýÿÿÿÿ8›€Îø¶2J$5963d0b1-d52b-4843-b4f7-f02832f8c194
+java:S3776'"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(÷›Üè8„€Îø¶2J$ea5f080a-4511-4d2f-97bd-4cd38dbec2be
+¶
+java:S1130"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(…ì †ýÿÿÿÿ8›€Îø¶2J$2d4ef4ef-9291-4b3e-8c06-90dd2a7522cd
 m
-java:S1128"*Remove this unused import 'java.sql.Date'.(ÙÀ½Ê8¤€Îø¶2J$eb3fbeff-1e77-42a0-89c2-d7cfbf65ccb2
+java:S1128"*Remove this unused import 'java.sql.Date'.(ÙÀ½Ê8¤€Îø¶2J$2f1f1a35-de68-46a0-bd9a-869cbd54f7f3

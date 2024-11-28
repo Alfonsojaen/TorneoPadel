@@ -47,7 +47,7 @@ public class ControllerAssignPlayer {
 
 
     @FXML
-    private void switchToMenuCuadrilla() throws IOException {
+    private void switchToMenuTeam() throws IOException {
         Scenes.setRoot("pantallaMenuTeam",null,null);
     }
 

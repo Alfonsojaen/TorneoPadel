@@ -10,21 +10,21 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="github.alfonsojaen.view.ControllerMenuTeam">
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="430.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="github.alfonsojaen.view.ControllerMenuTeam">
    <children>
-      <AnchorPane prefHeight="400.0" prefWidth="589.0" style="-fx-background-color: white;">
+      <AnchorPane prefHeight="430.0" prefWidth="869.0" style="-fx-background-color: white;">
          <children>
-            <TableView fx:id="tableview" editable="true" layoutX="15.0" layoutY="126.0" prefHeight="193.0" prefWidth="409.0">
+            <TableView fx:id="tableview" editable="true" layoutX="24.0" layoutY="118.0" prefHeight="194.0" prefWidth="605.0">
                <columns>
                   <TableColumn fx:id="id" prefWidth="56.0" text="Id" />
                   <TableColumn fx:id="name" prefWidth="94.40008544921875" text="Nombre" />
-                  <TableColumn fx:id="coach" minWidth="0.0" prefWidth="95.199951171875" text="Entrenador" />
-                  <TableColumn fx:id="description" prefWidth="95.20001220703125" text="Descripción" />
+                  <TableColumn fx:id="coach" minWidth="0.0" prefWidth="107.20001220703125" text="Entrenador" />
+                  <TableColumn fx:id="description" prefWidth="252.79998779296875" text="Descripción" />
                </columns>
             </TableView>
-            <Button layoutX="42.0" layoutY="332.0" mnemonicParsing="false" onAction="#switchToInsertTeam" prefHeight="26.0" prefWidth="134.0" style="-fx-background-color: PURPLE;" text="CREAR EQUIPO" textFill="WHITE" />
-            <Button layoutX="249.0" layoutY="333.0" mnemonicParsing="false" onAction="#switchToDeleteTeam" style="-fx-background-color: PURPLE;" text="ELIMINAR EQUIPO" textFill="WHITE" />
-            <Text layoutX="109.0" layoutY="64.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MENU EQUIPO">
+            <Button layoutX="114.0" layoutY="331.0" mnemonicParsing="false" onAction="#switchToInsertTeam" prefHeight="26.0" prefWidth="134.0" style="-fx-background-color: PURPLE;" text="AÑADIR EQUIPO" textFill="WHITE" />
+            <Button layoutX="372.0" layoutY="332.0" mnemonicParsing="false" onAction="#switchToDeleteTeam" style="-fx-background-color: PURPLE;" text="ELIMINAR EQUIPO" textFill="WHITE" />
+            <Text layoutX="203.0" layoutY="87.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MENU EQUIPO">
                <font>
                   <Font name="Calibri Bold Italic" size="40.0" />
                </font>
@@ -36,7 +36,7 @@
             </ImageView>
          </children>
       </AnchorPane>
-      <AnchorPane prefHeight="400.0" prefWidth="0.0" style="-fx-background-color: BLACK;">
+      <AnchorPane prefHeight="430.0" prefWidth="130.0" style="-fx-background-color: BLACK;">
          <children>
             <Text fill="WHITE" layoutX="25.0" layoutY="99.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Si quieres asignar JUGADORES a un equipo pulsa tres veces sobre su Id." textAlignment="CENTER" wrappingWidth="119.20009765624991" />
             <Text fill="RED" layoutX="30.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="INFORMACIÓN">

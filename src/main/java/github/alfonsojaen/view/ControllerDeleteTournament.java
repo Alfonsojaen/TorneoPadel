@@ -74,16 +74,16 @@ public class ControllerDeleteTournament {
 
             tournamentDAO.delete(selectedTournament);
 
-            Utils.ShowAlert("El Equipo ha sido borrado correctamente.");
+            Utils.ShowAlert("El Torneo ha sido borrado correctamente.");
 
             loadTournamentList();
         } else {
-            Utils.ShowAlert("Por favor, selecciona un equipo para eliminar.");
+            Utils.ShowAlert("Por favor, selecciona un torneo para eliminar.");
         }
     }
 
     @FXML
-    private void switchToMenu() throws IOException {
+    private void switchToMenuTournament() throws IOException {
         Scenes.setRoot("pantallaMenuTournament",null,null);
     }
 }

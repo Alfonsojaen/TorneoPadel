@@ -1,5 +1,5 @@
 
 h
-java:S1602",Remove useless curly braces around statement(ØÓÈÿJ$b644ab50-bb0a-4787-96fc-37974aa708f0
+java:S1602",Remove useless curly braces around statement(ØÓÈÿJ$972ff11e-8194-4ef9-9c2b-8ae65139c1e1
 ¶
-java:S11309"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(Ù•Çßøÿÿÿÿ8‰èÉù¶2J$05488d3c-79ca-4fbe-b5e4-c822db965e20
+java:S11309"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(Ù•Çßøÿÿÿÿ8‰èÉù¶2J$453b512f-8714-4360-835e-49dedfa6e953

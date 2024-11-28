@@ -42,12 +42,12 @@ public class ControllerMenuPlayer implements Initializable {
     }
 
     @FXML
-    private void switchToInsertPaso() throws IOException {
+    private void switchToInsertPlayer() throws IOException {
         Scenes.setRoot("pantallaInsertPlayer",null,null);
     }
 
     @FXML
-    private void switchToDeletePaso() throws IOException {
+    private void switchToDeletePlayer() throws IOException {
         Scenes.setRoot("pantallaDeletePlayer",null,null);
     }
 
@@ -99,7 +99,6 @@ public class ControllerMenuPlayer implements Initializable {
                     return;
                 }
 
-                // Validar que el género sea "Masculino" o "Femenino"
                 if (newGender.equalsIgnoreCase("Masculino") || newGender.equalsIgnoreCase("Femenino")) {
                     Player player = event.getRowValue();
                     player.setGender(newGender);
