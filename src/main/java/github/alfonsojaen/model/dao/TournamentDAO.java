@@ -1,6 +1,6 @@
 package github.alfonsojaen.model.dao;
 
-import github.alfonsojaen.model.connection.ConnectionMariaDB;
+import github.alfonsojaen.model.connection.DataBaseManager;
 import github.alfonsojaen.model.entity.Team;
 import github.alfonsojaen.model.entity.Tournament;
 import github.alfonsojaen.model.interfaces.InterfaceTournamentDAO;
@@ -25,9 +25,9 @@ public class TournamentDAO implements InterfaceTournamentDAO<Tournament> {
 
     private Connection conn;
 
-    // Constructor
+    // Constructor vacío para mantener compatibilidad
     public TournamentDAO() {
-        conn = ConnectionMariaDB.getConnection(); // Singleton para manejar la conexión
+        this.conn = DataBaseManager.getInstance().getConnection();
     }
 
     @Override

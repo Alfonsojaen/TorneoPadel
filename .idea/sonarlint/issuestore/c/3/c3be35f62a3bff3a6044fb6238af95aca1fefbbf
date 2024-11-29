@@ -1,0 +1,41 @@
+
+²
+java:S1192$"vDefine a constant instead of duplicating this literal "FOREIGN KEY(user_username) REFERENCES User(username) " 3 times.(–ÑŞçJ$26c184ca-35b2-4ec2-a6fb-e8b0c419dd6a
+ˆ
+java:S1192"LDefine a constant instead of duplicating this literal "name TEXT, " 3 times.(Ğ«ÉïJ$61eeca1f-9251-469f-95c9-3507df6f0e30
+–
+java:S1192#"UDefine a constant instead of duplicating this literal "user_username TEXT, " 3 times.(öĞ¾öûÿÿÿÿJ$9afa88c8-b02d-4820-8e6b-89fc1e64d318
+£
+java:S1192"gDefine a constant instead of duplicating this literal "id INTEGER PRIMARY KEY AUTOINCREMENT, " 3 times.(ÀÄÆ¡J$c3052e6d-a5b9-44c2-bf94-786d4a28a062
+q
+java:S1141"5Extract this nested try block into a separate method.(ó¨£İJ$98ed1a00-3fce-4330-b2cf-9480ceafc4ed
+f	java:S106"+Replace this use of System.out by a logger.(•ÌË¹J$08e2540f-fca6-42c2-9f4f-297a8a6bd603
+k	java:S106"+Replace this use of System.out by a logger.(íÊâôúÿÿÿÿJ$9558349c-f829-4b1e-b468-96deb957a21c
+k	java:S106&"+Replace this use of System.out by a logger.(¢ÎÃˆÿÿÿÿÿJ$af6a958b-ca8a-44a1-9979-92a02264bea2
+k	java:S1060"+Replace this use of System.out by a logger.(Ì™©øùÿÿÿÿJ$7f269038-49a9-49d2-b9e9-71c4b1d5f337
+k	java:S106:"+Replace this use of System.out by a logger.(¡´œşÿÿÿÿJ$f0b968d1-7f93-4bf6-9e0c-e5f96c791567
+f	java:S106C"+Replace this use of System.out by a logger.(Œé–ÊJ$17ffd55b-0227-4a93-ae1c-fe5ab3bad538
+f	java:S106L"+Replace this use of System.out by a logger.(ŠšÈÃJ$43cef090-f7d6-4938-a29f-c9f1ff5f4dc1
+f	java:S106P"+Replace this use of System.out by a logger.(¢ÇıÉJ$8babd6fc-9bb5-4db4-919b-2918765162a0
+f	java:S106T"+Replace this use of System.out by a logger.(òØ“®J$bd397197-1d30-4eb1-a051-104723f31367
+k	java:S106X"+Replace this use of System.out by a logger.(É•ˆßşÿÿÿÿJ$522f38a4-34d8-4ede-8b98-0df9f2886f5e
+k	java:S106Z"+Replace this use of System.out by a logger.(†˜„ŠıÿÿÿÿJ$f76f29d6-21df-4b0d-995e-766e7f7fd657
+`
+java:S6905["Don't use the query "SELECT *".(¸²€ˆùÿÿÿÿJ$cd3d300b-4568-44a4-8caf-47208485fb34
+f	java:S106]"+Replace this use of System.out by a logger.(ÔÙÄ¹J$3133075f-0587-4519-8386-9ffef9f3922c
+k	java:S106^"+Replace this use of System.out by a logger.(ÖÅãıÿÿÿÿJ$d4c6f3b0-2031-4e33-b4e2-201b06b5b7d7
+k	java:S106_"+Replace this use of System.out by a logger.(‰™®§ûÿÿÿÿJ$41a608bb-770b-4347-80a4-4bbd4fa9ed56
+k	java:S106c"+Replace this use of System.out by a logger.(…¦¤ÍûÿÿÿÿJ$09736143-6187-45c6-b2c9-e3bd21b0a3f7
+`
+java:S6905d"Don't use the query "SELECT *".(†¿›øÿÿÿÿJ$fb2861aa-aabe-45e6-977e-12b66ad0db2f
+f	java:S106f"+Replace this use of System.out by a logger.(Æ·ŞşJ$18380ad0-6827-44fd-8ad8-62f9bce04d09
+f	java:S106g"+Replace this use of System.out by a logger.(Àæ¼ÅJ$f81781c1-f556-4428-8ed2-07708af54a94
+k	java:S106h"+Replace this use of System.out by a logger.(§Ó×øÿÿÿÿJ$7170f560-579d-46dc-9068-6fc16d247e4b
+k	java:S106i"+Replace this use of System.out by a logger.(íÒˆµüÿÿÿÿJ$ee610094-0551-4a88-823c-89f699fc91e9
+f	java:S106m"+Replace this use of System.out by a logger.(ÅÕØ‘J$878efd12-5efe-4473-93c3-ec5ad2b98cfe
+`
+java:S6905n"Don't use the query "SELECT *".(èÓû×ùÿÿÿÿJ$9a7b5019-26bf-4386-b5f6-7a6c8b392b7f
+k	java:S106p"+Replace this use of System.out by a logger.(Ëé°úÿÿÿÿJ$f49a022b-e71f-4449-b3fb-c0ad6b19ca8c
+f	java:S106q"+Replace this use of System.out by a logger.(ŞŞéçJ$a879e720-3bac-416b-845f-a75af7123a05
+f	java:S106r"+Replace this use of System.out by a logger.(ö¦Ú‡J$96725cf5-24fa-4d82-aefd-41ce882d5d3a
+f	java:S106w"+Replace this use of System.out by a logger.(²ş·×J$b0d6c1e9-1a53-4c83-b7e8-5590296c77d4

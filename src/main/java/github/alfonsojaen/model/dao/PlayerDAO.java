@@ -1,6 +1,6 @@
 package github.alfonsojaen.model.dao;
 
-import github.alfonsojaen.model.connection.ConnectionMariaDB;
+import github.alfonsojaen.model.connection.DataBaseManager;
 import github.alfonsojaen.model.entity.Player;
 import github.alfonsojaen.model.entity.Team;
 import github.alfonsojaen.model.interfaces.InterfacePlayerDAO;
@@ -24,9 +24,9 @@ public class PlayerDAO implements InterfacePlayerDAO<Player> {
 
     private Connection conn;
 
-    // Constructor
+    // Constructor vacío para mantener compatibilidad
     public PlayerDAO() {
-        conn = ConnectionMariaDB.getConnection(); // Singleton para manejar la conexión
+        this.conn = DataBaseManager.getInstance().getConnection();
     }
 
     @Override
@@ -138,7 +138,7 @@ public class PlayerDAO implements InterfacePlayerDAO<Player> {
     @Override
     public List<Player> findByTeam(Team team) {
         List<Player> result = new ArrayList<>();
-        try(PreparedStatement pst = ConnectionMariaDB.getConnection().prepareStatement(FINDBYTEAM)) {
+        try(PreparedStatement pst = conn.prepareStatement(FINDBYTEAM)) {
             pst.setInt(1, team.getId());
             ResultSet res = pst.executeQuery();
             while (res.next()){

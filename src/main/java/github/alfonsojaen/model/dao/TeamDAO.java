@@ -1,6 +1,6 @@
 package github.alfonsojaen.model.dao;
 
-import github.alfonsojaen.model.connection.ConnectionMariaDB;
+import github.alfonsojaen.model.connection.DataBaseManager;
 import github.alfonsojaen.model.entity.Player;
 import github.alfonsojaen.model.entity.Team;
 import github.alfonsojaen.model.entity.Tournament;
@@ -24,11 +24,12 @@ public class TeamDAO implements InterfaceTeamDAO<Team> {
     private final static String INSERTPLAYER = "INSERT INTO Esta (playerId, teamId) VALUES (?,?)";
     private final static String DELETEPLAYER = "DELETE FROM Esta WHERE teamId=?";
     private final static String GETPLAYER = "SELECT playerId FROM Esta WHERE teamId = ?";
+
     private Connection conn;
 
-    // Constructor
+    // Constructor vacío para mantener compatibilidad
     public TeamDAO() {
-        conn = ConnectionMariaDB.getConnection(); // Singleton para manejar la conexión
+        this.conn = DataBaseManager.getInstance().getConnection();
     }
 
     @Override
@@ -204,7 +205,7 @@ public class TeamDAO implements InterfaceTeamDAO<Team> {
     @Override
     public List<Team> findByTournament(Tournament tu) {
         List<Team> result = new ArrayList<>();
-        try(PreparedStatement pst = ConnectionMariaDB.getConnection().prepareStatement(FINDBYTOURNAMENT)) {
+        try(PreparedStatement pst = conn.prepareStatement(FINDBYTOURNAMENT)) {
             pst.setInt(1, tu.getId());
             ResultSet res = pst.executeQuery();
             while (res.next()){

@@ -1,0 +1,7 @@
+
+Õ
+java:S6548"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(Ó°ŠŞJ$1cbd355b-b61a-4d09-aaf3-b5b336309487
+}
+java:S2209"5Change this instance-reference to a static reference.(ÁÚáÅùÿÿÿÿ8–²ôÅ·2J$bd55395b-da50-4e4d-816b-027e1092a0ea
+x
+java:S2440"0Remove this instantiation of "SQLiteConnection".(ÁÚáÅùÿÿÿÿ8–²ôÅ·2J$406b3549-88ef-47aa-9ce3-0c8705ec013c

@@ -1,6 +1,6 @@
 package github.alfonsojaen.model.dao;
 
-import github.alfonsojaen.model.connection.ConnectionMariaDB;
+import github.alfonsojaen.model.connection.DataBaseManager;
 import github.alfonsojaen.model.entity.User;
 import github.alfonsojaen.model.interfaces.InterfaceUserDAO;
 
@@ -22,11 +22,9 @@ public class UserDAO implements InterfaceUserDAO<User> {
 
     private Connection conn;
 
-    /**
-     * Constructor that initializes the connection to the database.
-     */
+    // Constructor vacío para mantener compatibilidad
     public UserDAO() {
-        conn = ConnectionMariaDB.getConnection();
+        this.conn = DataBaseManager.getInstance().getConnection();
     }
 
     /**
@@ -41,7 +39,7 @@ public class UserDAO implements InterfaceUserDAO<User> {
         User u = findByUserName(user.getUsername());
         if (u == null) {
             //INSERT
-            try (PreparedStatement ps = ConnectionMariaDB.getConnection().prepareStatement(INSERT)) {
+            try (PreparedStatement ps = conn.prepareStatement(INSERT)) {
                 ps.setString(1, user.getUsername());
                 ps.setString(2, user.getPassword());
                 ps.setString(3, user.getEmail());
@@ -53,7 +51,7 @@ public class UserDAO implements InterfaceUserDAO<User> {
                 e.printStackTrace();
             }
     } else {
-        try (PreparedStatement ps = ConnectionMariaDB.getConnection().prepareStatement(UPDATE)) {
+        try (PreparedStatement ps = conn.prepareStatement(UPDATE)) {
             ps.setString(1, user.getUsername());
             ps.setString(2, user.getPassword());
             ps.setString(3, user.getEmail());
@@ -79,7 +77,7 @@ public class UserDAO implements InterfaceUserDAO<User> {
     @Override
     public User delete(User entity) throws SQLException {
         if (entity == null || entity.getUsername() == null) return entity;
-        try (PreparedStatement pst = ConnectionMariaDB.getConnection().prepareStatement(DELETE)) {
+        try (PreparedStatement pst = conn.prepareStatement(DELETE)) {
             pst.setString(1, entity.getUsername());
             pst.executeUpdate();
         }
@@ -106,7 +104,7 @@ public class UserDAO implements InterfaceUserDAO<User> {
     public User findByUserName(String username) throws SQLException {
             User result = null;
             if (username != null) {
-                try (PreparedStatement pst = ConnectionMariaDB.getConnection().prepareStatement(FINDBYUSERNAME)) {
+                try (PreparedStatement pst = conn.prepareStatement(FINDBYUSERNAME)) {
                     pst.setString(1, username);
                     ResultSet res = pst.executeQuery();
                     if (res.next()) {
@@ -126,7 +124,7 @@ public class UserDAO implements InterfaceUserDAO<User> {
     public User findbyEmail(String email) throws SQLException {
         User result = null;
         if (email != null) {
-            try (PreparedStatement pst = ConnectionMariaDB.getConnection().prepareStatement(FINDBYEMAIL)) {
+            try (PreparedStatement pst = conn.prepareStatement(FINDBYEMAIL)) {
                 pst.setString(1, email);
                 ResultSet res = pst.executeQuery();
                 if (res.next()) {
@@ -151,7 +149,7 @@ public class UserDAO implements InterfaceUserDAO<User> {
      */
     @Override
     public String checkLogin(String email, String password) throws SQLException {
-    try (PreparedStatement pst = ConnectionMariaDB.getConnection().prepareStatement(QUERY)) {
+    try (PreparedStatement pst = conn.prepareStatement(QUERY)) {
         pst.setString(1, email);
         pst.setString(2, password);
         ResultSet res = pst.executeQuery();

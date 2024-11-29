@@ -69,6 +69,7 @@ public class ControllerUserLogin {
     private void switchToRegister() throws IOException {
         Scenes.setRoot("pantallaRegisterUser", null, null);
     }
+
 }
 
 
