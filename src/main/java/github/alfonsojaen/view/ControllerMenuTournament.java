@@ -50,7 +50,10 @@ public class ControllerMenuTournament implements Initializable {
     private void switchToMenu() throws IOException {
         Scenes.setRoot("pantallaMenu", null, null);
     }
-
+    @FXML
+    private void switchToTXT() throws IOException {
+        Scenes.setRoot("pantallatxt", null, null);
+    }
 
     @FXML
     private void switchToInsertTournament() throws IOException {

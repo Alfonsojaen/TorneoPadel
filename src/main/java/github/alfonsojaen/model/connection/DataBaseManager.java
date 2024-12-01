@@ -2,6 +2,7 @@ package github.alfonsojaen.model.connection;
 
 import java.sql.Connection;
 import java.sql.SQLException;
+import java.sql.Statement;
 
 public class DataBaseManager {
         private static DataBaseManager instance;
@@ -27,6 +28,13 @@ public class DataBaseManager {
             if ("SQLite".equalsIgnoreCase(database)) {
                 connection = new SQLiteConnection().getConnection();
                 selectedDatabase = "SQLite";
+                try (Statement statement = connection.createStatement()) {
+                    statement.execute("PRAGMA foreign_keys = ON;");
+                } catch (SQLException e) {
+                    throw e;
+                }
+
+
             } else if ("MariaDB".equalsIgnoreCase(database)) {
                 connection = new ConnectionMariaDB().getConnection();
                 selectedDatabase = "MariaDB";

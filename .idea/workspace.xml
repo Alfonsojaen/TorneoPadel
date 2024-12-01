@@ -5,34 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5749be9b-69ff-4fcd-86ed-b82d607a074d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/data/mydatabase.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/model/connection/DataBaseManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/model/connection/H2DatabaseSetup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/model/connection/SQLiteConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/model/interfaces/DatabaseConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/view/ControllerDatabase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/github/alfonsojaen/view/pantallaDatabase.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/b/1ba6b777e263fad7e19c925dbabecc41598099f8" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/b/1ba6b777e263fad7e19c925dbabecc41598099f8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/view/ControllerTxt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/github/alfonsojaen/view/pantallatxt.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/4/348bd1e037eab64d291f53d5bba4b4e76bab8ab2" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/4/348bd1e037eab64d291f53d5bba4b4e76bab8ab2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/5/85d7c9bff8fb2394f5a50183c2177d09c213e9dc" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/5/85d7c9bff8fb2394f5a50183c2177d09c213e9dc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/8/387041d32d243b04ef1cd4607516515803a7272e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/b/3bb262b0cd05842a33ab384ab3c15da67e803136" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/c/4c9008707124b649a0f019437fe3b4a242b43359" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/8/7827bd56895d5da7fc334c5f78d800c3f4d9a2b2" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/8/7827bd56895d5da7fc334c5f78d800c3f4d9a2b2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/6/86d3b1bb5d4dd2727333d14983cbf2e305d0f3c3" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/6/96e1ba23424aa32cf0762b65d4f3c49629dc83aa" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/6/96e1ba23424aa32cf0762b65d4f3c49629dc83aa" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/d/cdd557e6f2fcac094bda3238cf2789eea47a1de7" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/d/cdd557e6f2fcac094bda3238cf2789eea47a1de7" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/3/d38b0cdbf08d137d037be0007cf83dd4ab2e3ba3" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/3/d38b0cdbf08d137d037be0007cf83dd4ab2e3ba3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/a/da3e8762291fd1da9819a1f3cc5c957899f6a9e9" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/a/da3e8762291fd1da9819a1f3cc5c957899f6a9e9" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/c/dca8885c171895054debfd3ead98211a504ba65b" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/c/dca8885c171895054debfd3ead98211a504ba65b" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/3/d3e0e8fd7b6a941ab44ec512ce0f165ee9c5bdf3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/d/dd5f647e0b3a14bc4b2b2959a8431b93314d00b7" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/9/e9e0522710eb740cf8404586ef1c32d4e594cf80" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/9/e9e0522710eb740cf8404586ef1c32d4e594cf80" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/0/f00d6ba6a48adfce5d21471a2b0cf07ca04b76f0" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/0/f00d6ba6a48adfce5d21471a2b0cf07ca04b76f0" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/8/387041d32d243b04ef1cd4607516515803a7272e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/b/3bb262b0cd05842a33ab384ab3c15da67e803136" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/c/4c9008707124b649a0f019437fe3b4a242b43359" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/6/86d3b1bb5d4dd2727333d14983cbf2e305d0f3c3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/3/d3e0e8fd7b6a941ab44ec512ce0f165ee9c5bdf3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/d/dd5f647e0b3a14bc4b2b2959a8431b93314d00b7" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/model/connection/ConnectionMariaDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/model/connection/ConnectionMariaDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/model/dao/PlayerDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/model/dao/PlayerDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/model/dao/TeamDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/model/dao/TeamDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/model/dao/TournamentDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/model/dao/TournamentDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/model/dao/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/model/dao/UserDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/view/ControllerUserLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/view/ControllerUserLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/mydatabaseproyecto.db" beforeDir="false" afterPath="$PROJECT_DIR$/data/mydatabaseproyecto.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/model/connection/DataBaseManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/model/connection/DataBaseManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/view/ControllerMenuTournament.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/view/ControllerMenuTournament.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/view/Scenes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/view/Scenes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/github/alfonsojaen/view/pantallaMenuTournament.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/github/alfonsojaen/view/pantallaMenuTournament.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +44,7 @@
         <option value="Interface" />
         <option value="JavaFXApplication" />
         <option value="Class" />
+        <option value="FxmlFile" />
       </list>
     </option>
   </component>
@@ -135,7 +135,8 @@
       <workItem from="1732890412015" duration="54000" />
       <workItem from="1732891111108" duration="26000" />
       <workItem from="1732896060846" duration="109000" />
-      <workItem from="1732896926152" duration="4085000" />
+      <workItem from="1732896926152" duration="4542000" />
+      <workItem from="1733067112813" duration="4400000" />
     </task>
     <servers />
   </component>

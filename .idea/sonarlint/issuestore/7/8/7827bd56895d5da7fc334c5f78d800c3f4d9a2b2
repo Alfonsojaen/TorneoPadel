@@ -1,16 +1,16 @@
 
-	java:S112T"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8øøï¶2J$55e68b16-a46b-4b02-b270-239affa3552a
+	java:S112W"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8øøï¶2J$8d1f9655-2ac1-488c-a650-5ad93f568155
 q
-java:S1604–"(Make this anonymous inner class a lambda(Í€¾±úÿÿÿÿ8ÒŠ¶ù¶2J$142cf344-37b7-4431-8e75-1b9e5286ec39
+java:S1604™"(Make this anonymous inner class a lambda(Í€¾±úÿÿÿÿ8ÒŠ¶ù¶2J$1d70b665-e59c-4103-8761-38ac35d4826a
 l
-java:S1604ß"(Make this anonymous inner class a lambda(±Ğœ…8ÓŠ¶ù¶2J$21f88a27-34a8-455c-b2bb-45c467609e66
+java:S1604â"(Make this anonymous inner class a lambda(±Ğœ…8ÓŠ¶ù¶2J$fd8c30ab-f58e-4d52-89bb-258a04d4bfd1
 Ÿ
-java:S1488^"\Immediately return this expression instead of assigning it to the temporary variable "cell".(ùµ¯Ê8ûøï¶2J$afb7336b-cd3c-46b2-af81-114441d4570e
+java:S1488a"\Immediately return this expression instead of assigning it to the temporary variable "cell".(ùµ¯Ê8ûøï¶2J$43dee1cd-af7b-466a-befc-8d7ca401a89e
 
-java:S1450."ZRemove the "tournaments" field and declare it as a local variable in the relevant methods.(Ï» æ8Ù¸ºõ¶2J$0ac21420-fcb9-4393-b19a-c4b4dc0fef26
+java:S1450."ZRemove the "tournaments" field and declare it as a local variable in the relevant methods.(Ï» æ8Ù¸ºõ¶2J$5d0d2367-6214-4406-b473-0795da77ead7
 ›
-java:S3776D"SRefactor this method to reduce its Cognitive Complexity from 101 to the 15 allowed.(•‘İŸüÿÿÿÿ8ß¸ºõ¶2J$c38cfa00-6be1-46b4-9936-577b887e1632
+java:S3776G"SRefactor this method to reduce its Cognitive Complexity from 101 to the 15 allowed.(•‘İŸüÿÿÿÿ8ß¸ºõ¶2J$15b90fb9-8f15-4790-b0a9-10201b3de496
 ‚
-java:S1117F"?Rename "tournaments" which hides the field declared at line 46.(Ê»Àº8à¸ºõ¶2J$d776d5b4-9559-4156-a84d-5f3b53a1b9ae
+java:S1117I"?Rename "tournaments" which hides the field declared at line 46.(Ê»Àº8à¸ºõ¶2J$0b4f0017-6a1e-4292-bd98-9e46df36bff8
 ¡
-java:S1171a"YMove the contents of this initializer to a standard constructor or to field initializers.(ÒÌâ–øÿÿÿÿ8ä¸ºõ¶2J$75d82575-6c53-4a72-9d19-f41441f2121d
+java:S1171d"YMove the contents of this initializer to a standard constructor or to field initializers.(ÒÌâ–øÿÿÿÿ8ä¸ºõ¶2J$f0e3a325-d492-4603-9d1f-2cb7f2de6845

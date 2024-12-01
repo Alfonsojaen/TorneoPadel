@@ -36,6 +36,7 @@
                   <Image url="@../../../icons/LetsIconsBack.png" />
                </image>
             </ImageView>
+            <Button layoutX="550.0" layoutY="38.0" mnemonicParsing="false" onAction="#switchToTXT" text="TXT" />
          </children>
       </AnchorPane>
       <AnchorPane prefHeight="430.0" prefWidth="130.0" style="-fx-background-color: BLACK;">

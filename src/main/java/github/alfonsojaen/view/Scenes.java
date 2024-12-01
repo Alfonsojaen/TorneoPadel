@@ -49,7 +49,9 @@ public class Scenes {
             newScene = App.createScene(fxml, 600, 400, null,tournament);
         } else if (fxml.equals("pantallaDatabase")) {
             newScene = App.createScene(fxml, 600, 400, null, null);
-        } else {
+        } else if (fxml.equals("pantallatxt")) {
+            newScene = App.createScene(fxml, 600, 400, null, null);
+    } else {
             newScene = App.createScene(fxml, 600, 400, null, null);
         }
         App.primaryStage.setScene(newScene);
