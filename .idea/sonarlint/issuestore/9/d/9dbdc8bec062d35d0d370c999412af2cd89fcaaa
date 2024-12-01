@@ -1,6 +1,7 @@
 
-z
-java:S2589,"7Remove this expression which always evaluates to "true"(ò–Æá8ïÏù˜¸2J$5f0ee5a3-34ae-4307-a69b-94a5be7560ce
-Ÿ
-java:S1450"\Remove the "tournamentDAO" field and declare it as a local variable in the relevant methods.(ÌÀÆŒ8óÏù˜¸2J$72d2f9b6-0476-46e8-a2bf-7d3b1799925e
-r	java:S106)"+Replace this use of System.out by a logger.(ì™ ıÿÿÿÿ8÷Ïù˜¸2J$7383401c-d65c-481a-8b8c-8399b6e72d4d
+
+java:S1450!"ZRemove the "tournaments" field and declare it as a local variable in the relevant methods.(Ï» æ8Ñ˜ë¡¸2J$52d61678-d476-4a26-9c51-6f99097ad4e3
+m	java:S106S"+Replace this use of System.out by a logger.(¡Ëçí8á˜ë¡¸2J$7495d08d-079a-46d4-9269-281afa4b4393
+m	java:S106a"+Replace this use of System.out by a logger.(±¾º›8ö˜ë¡¸2J$426d5d14-5b5d-42ab-8a16-4b2d4fd9fbf0
+m	java:S106f"+Replace this use of System.out by a logger.(ˆ†«ê8ù˜ë¡¸2J$ba75ea7a-608d-497a-8dc8-6535e463c983
+r	java:S106{"+Replace this use of System.out by a logger.(Õœ’¼üÿÿÿÿ8Ì§ú¡¸2J$5e928471-37d4-4ec2-8240-6462123f7837

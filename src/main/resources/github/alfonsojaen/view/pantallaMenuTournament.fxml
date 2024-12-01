@@ -36,7 +36,12 @@
                   <Image url="@../../../icons/LetsIconsBack.png" />
                </image>
             </ImageView>
-            <Button layoutX="550.0" layoutY="38.0" mnemonicParsing="false" onAction="#switchToTXT" text="TXT" />
+            <ImageView fitHeight="82.0" fitWidth="64.0" layoutX="554.0" layoutY="34.0" onMouseClicked="#switchToTXT" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../icons/Simbolo%20Descarga.png" />
+               </image>
+            </ImageView>
+            <Text layoutX="532.0" layoutY="28.0" strokeType="OUTSIDE" strokeWidth="0.0" text="EXPORTAR TORNEO" />
          </children>
       </AnchorPane>
       <AnchorPane prefHeight="430.0" prefWidth="130.0" style="-fx-background-color: BLACK;">
