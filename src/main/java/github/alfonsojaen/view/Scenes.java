@@ -23,11 +23,11 @@ public class Scenes {
         } else if (fxml.equals("pantallaMenu")) {
             newScene = App.createScene(fxml, 600, 400, null, null);
         } else if (fxml.equals("pantallaMenuPlayer")) {
-            newScene = App.createScene(fxml, 800, 400, null, null);
+            newScene = App.createScene(fxml, 800, 450, null, null);
         } else if (fxml.equals("pantallaMenuTeam")) {
-            newScene = App.createScene(fxml, 800, 400, null, null);
+            newScene = App.createScene(fxml, 800, 450, null, null);
         } else if (fxml.equals("pantallaMenuTournament")) {
-            newScene = App.createScene(fxml, 800, 400, null, null);
+            newScene = App.createScene(fxml, 800, 450, null, null);
             //INSERT
         } else if (fxml.equals("pantallaInsertPlayer")) {
             newScene = App.createScene(fxml, 600, 400, null, null);

@@ -12,6 +12,7 @@ import javafx.fxml.Initializable;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.cell.TextFieldTableCell;
+import org.w3c.dom.Text;
 
 import java.io.IOException;
 import java.net.URL;
@@ -34,6 +35,10 @@ public class ControllerMenuPlayer implements Initializable {
     @FXML
     private TableColumn<Player, String> age;
 
+
+    @FXML
+    private Text infoText;
+
     private ObservableList<Player> players;
 
     @FXML
@@ -50,7 +55,6 @@ public class ControllerMenuPlayer implements Initializable {
     private void switchToDeletePlayer() throws IOException {
         Scenes.setRoot("pantallaDeletePlayer",null,null);
     }
-
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {

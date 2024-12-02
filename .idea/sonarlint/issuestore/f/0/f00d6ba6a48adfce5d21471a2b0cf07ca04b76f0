@@ -1,9 +1,9 @@
 
 Õ
-java:S6548"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(Ó°ŠŞJ$d6ed050d-4bc8-4b71-9713-288e1e92f568
+java:S6548"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(Ó°ŠŞJ$11b69bfe-4276-487c-9850-7dfcb7de0432
 }
-java:S2209"5Change this instance-reference to a static reference.(ÁÚáÅùÿÿÿÿ8–²ôÅ·2J$00f95dc6-fee3-4f61-86ba-5a42e4b33762
+java:S2209"5Change this instance-reference to a static reference.(ÁÚáÅùÿÿÿÿ8–²ôÅ·2J$1536442e-a4fb-45b7-9139-5cad8b931279
 x
-java:S2440"0Remove this instantiation of "SQLiteConnection".(ÁÚáÅùÿÿÿÿ8–²ôÅ·2J$6411ed3f-b46e-408f-8ee8-3e9d68fb5919
+java:S2440"0Remove this instantiation of "SQLiteConnection".(ÁÚáÅùÿÿÿÿ8–²ôÅ·2J$fa9d66e6-95bf-44a6-a69d-f9d63e935e75
 š
-java:S2737""WAdd logic to this catch clause or eliminate it and rethrow the exception automatically.(ö™û8ìšÕ—¸2J$20cbfc7f-e26d-47d4-89d9-2f5390e91367
+java:S2737""WAdd logic to this catch clause or eliminate it and rethrow the exception automatically.(ö™û8ìšÕ—¸2J$a06f913f-bebc-4782-ae27-355df7180e7b

@@ -5,15 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5749be9b-69ff-4fcd-86ed-b82d607a074d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/Fototxt.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/Simbolo Descarga.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/anadir-grupo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/borrar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/eliminar-usuario.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/hombre.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/informacion.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/jugador-de-futbol.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/mas.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/torneo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/0/10d2df654796fc1ac1a4d5e573d828df0276a0db" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/0/10d2df654796fc1ac1a4d5e573d828df0276a0db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/4/348bd1e037eab64d291f53d5bba4b4e76bab8ab2" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/4/348bd1e037eab64d291f53d5bba4b4e76bab8ab2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/d/9dbdc8bec062d35d0d370c999412af2cd89fcaaa" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/d/9dbdc8bec062d35d0d370c999412af2cd89fcaaa" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/c/4c09bf4fe7057b34afe8ee689f0bf58b7e36c8f8" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/c/4c09bf4fe7057b34afe8ee689f0bf58b7e36c8f8" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/d/8ddb4a36c1d3c5e05115be4aaea3cf5b3e402e5e" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/d/8ddb4a36c1d3c5e05115be4aaea3cf5b3e402e5e" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/6/96e1ba23424aa32cf0762b65d4f3c49629dc83aa" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/6/96e1ba23424aa32cf0762b65d4f3c49629dc83aa" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/3/c3be35f62a3bff3a6044fb6238af95aca1fefbbf" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/3/c3be35f62a3bff3a6044fb6238af95aca1fefbbf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/0/e0cfc4c52f42f3a37aa32b6dfc457eb731647211" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/0/e0cfc4c52f42f3a37aa32b6dfc457eb731647211" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/0/f00d6ba6a48adfce5d21471a2b0cf07ca04b76f0" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/0/f00d6ba6a48adfce5d21471a2b0cf07ca04b76f0" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/mydatabaseproyecto.db" beforeDir="false" afterPath="$PROJECT_DIR$/data/mydatabaseproyecto.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/view/ControllerTxt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/view/ControllerTxt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/model/singleton/UserSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/model/singleton/UserSession.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/view/ControllerMenuPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/view/ControllerMenuPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/view/Scenes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/alfonsojaen/view/Scenes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/github/alfonsojaen/view/pantallaMenuPlayer.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/github/alfonsojaen/view/pantallaMenuPlayer.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/github/alfonsojaen/view/pantallaMenuTeam.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/github/alfonsojaen/view/pantallaMenuTeam.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/github/alfonsojaen/view/pantallaMenuTournament.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/github/alfonsojaen/view/pantallaMenuTournament.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/github/alfonsojaen/view/pantallatxt.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/github/alfonsojaen/view/pantallatxt.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +134,10 @@
       <workItem from="1732896060846" duration="109000" />
       <workItem from="1732896926152" duration="4542000" />
       <workItem from="1733067112813" duration="4642000" />
-      <workItem from="1733089561173" duration="3048000" />
+      <workItem from="1733089561173" duration="3328000" />
+      <workItem from="1733125325839" duration="206000" />
+      <workItem from="1733133207067" duration="4802000" />
+      <workItem from="1733158483901" duration="5427000" />
     </task>
     <servers />
   </component>
